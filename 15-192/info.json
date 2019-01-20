@@ -1,0 +1,22 @@
+{
+    "abstract": "We present a new algorithm for domain adaptation improving upon a discrepancy minimization algorithm, (DM), previously shown to outperform a number of algorithms for this problem. Unlike many previously proposed solutions for domain adaptation, our algorithm does not consist of a fixed reweighting of the losses over the training sample. Instead, the reweighting depends on the hypothesis sought. The algorithm is derived from a less conservative notion of discrepancy than the DM algorithm called <i>generalized discrepancy</i>. We present a detailed description of our algorithm and show that it can be formulated as a convex optimization problem. We also give a detailed theoretical analysis of its learning guarantees which helps us select its parameters. Finally, we report the results of experiments demonstrating that it improves upon discrepancy minimization.",
+    "authors": [
+        "Corinna Cortes",
+        "Mehryar Mohri",
+        "Andr{\\'e}s Mu{\\~n}oz Medina"
+    ],
+    "emails": [
+        "corinna@google.com",
+        "mohri@cims.nyu.edu",
+        "munoz@cims.nyu.edu"
+    ],
+    "id": "15-192",
+    "issue": 1,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Adaptation Based on Generalized Discrepancy",
+    "volume": 20,
+    "year": 2019
+}
