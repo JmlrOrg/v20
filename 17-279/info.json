@@ -1,0 +1,22 @@
+{
+    "abstract": "In stochastic optimization, the population risk is generally approximated by the empirical risk which is in turn minimized by an iterative algorithm. However, in the large-scale setting, empirical risk minimization may be computationally restrictive. In this paper, we design an efficient algorithm to approximate the population risk minimizer in generalized linear problems such as binary classification with surrogate losses and generalized linear regression models. We focus on large-scale problems where the iterative minimization of the empirical risk is computationally intractable, i.e., the number of observations $n$ is much larger than the dimension of the parameter $p$ ($n \\gg p \\gg 1$). We show that under random sub-Gaussian design, the true minimizer of the population risk is approximately proportional to the corresponding ordinary least squares (OLS) estimator. Using this relation, we design an algorithm that achieves the same accuracy as the empirical risk minimizer through iterations that attain up to a quadratic convergence rate, and that are computationally cheaper than any batch optimization algorithm by at least a factor of $\\mathcal{O}(p)$. We provide theoretical guarantees for our algorithm, and analyze the convergence behavior in terms of data dimensions. Finally, we demonstrate the performance of our algorithm on well-known classification and regression problems, through extensive numerical studies on large-scale datasets, and show that it achieves the highest performance compared to several other widely used optimization algorithms.",
+    "authors": [
+        "Murat Erdogdu",
+        "Mohsen Bayati",
+        "Lee H. Dicker"
+    ],
+    "emails": [
+        "erdogdu@cs.toronto.edu",
+        "bayati@stanford.edu",
+        "ldicker@stat.rutgers.edu"
+    ],
+    "id": "17-279",
+    "issue": 7,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Scalable Approximations for Generalized Linear Problems",
+    "volume": 20,
+    "year": 2019
+}

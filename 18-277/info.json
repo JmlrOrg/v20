@@ -1,0 +1,24 @@
+{
+    "abstract": "Tensors are higher-order extensions of matrices. While matrix methods form the cornerstone of traditional machine learning and data analysis, tensor methods have been gaining increasing traction. However, software support for tensor operations is not on the same footing. In order to bridge this gap, we have developed TensorLy, a Python library that provides a high-level API for tensor methods and deep tensorized neural networks. TensorLy aims to follow the same standards adopted by the main projects of the Python scientific community, and to seamlessly integrate with them. Its BSD license makes it suitable for both academic and commercial applications. TensorLy's backend system allows users to perform computations with several libraries such as NumPy or PyTorch to name but a few. They can be scaled on multiple CPU or GPU machines. In addition, using the deep-learning frameworks as backend allows to easily design and train deep tensorized neural networks. TensorLy is available at https://github.com/tensorly/tensorly",
+    "authors": [
+        "Jean Kossaifi",
+        "Yannis Panagakis",
+        "Anima Anandkumar",
+        "Maja Pantic"
+    ],
+    "emails": [
+        "jean.kossaifi@imperial.ac.uk",
+        "i.panagakis@imperial.ac.uk",
+        "anima@caltech.edu",
+        "m.pantic@imperial.ac.uk"
+    ],
+    "id": "18-277",
+    "issue": 26,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "TensorLy: Tensor Learning in Python",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "As the data sets increase in size, the process of manually labeling data becomes unfeasible by small groups of experts. Thus, it is common to rely on crowdsourcing platforms which provide inexpensive, but noisy, labels. Although implementations of algorithms to tackle this problem exist, none of them focus on scalability, limiting the area of application to relatively small data sets. In this paper, we present spark-crowd, an Apache Spark package for learning from crowdsourced data with scalability in mind.",
+    "authors": [
+        "Enrique G. Rodrigo",
+        "Juan A. Aledo",
+        "José A. Gámez"
+    ],
+    "emails": [
+        "enrique.grodrigo@uclm.es",
+        "juanangel.aledo@uclm.es",
+        "jose.gamez@uclm.es"
+    ],
+    "id": "17-743",
+    "issue": 19,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "spark-crowd: A Spark Package for Learning from Crowdsourced Big Data",
+    "volume": 20,
+    "year": 2019
+}

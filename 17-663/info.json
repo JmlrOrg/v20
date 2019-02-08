@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper develops detailed mathematical statistical theory of a new class of cross-validation techniques of local linear kernel hazards and their multiplicative bias corrections. The new class of cross-validation combines principles of local information and recent advances in indirect cross-validation. A few applications of cross-validating multiplicative kernel hazard estimation do exist in the literature. However, detailed mathematical statistical theory and small sample performance are introduced via this paper and further upgraded to our new class of best one-sided cross-validation. Best one-sided cross-validation turns out to have excellent performance in its practical illustrations, in its small sample performance and in its mathematical statistical theoretical performance.",
+    "authors": [
+        "Maria Luz Gámiz",
+        "María Dolores  Martínez-Miranda",
+        "Jens Perch Nielsen"
+    ],
+    "emails": [
+        "mgamiz@ugr.es",
+        "mmiranda@ugr.es",
+        "jens.nielsen.1@city.ac.uk"
+    ],
+    "id": "17-663",
+    "issue": 18,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Multiplicative local linear hazard estimation and best one-sided cross-validation",
+    "volume": 20,
+    "year": 2019
+}

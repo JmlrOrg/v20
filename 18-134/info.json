@@ -1,0 +1,20 @@
+{
+    "abstract": "Probabilistic linear discriminant analysis (PLDA) is a method used for biometric problems like speaker or face recognition that models the variability of the samples using two latent variables, one that depends on the class of the sample and another one that is assumed independent across samples and models the within-class variability. In this work, we propose a generalization of PLDA that enables joint modeling of two sample-dependent factors: the class of interest and a nuisance condition. The approach does not change the basic form of PLDA but rather modifies the training procedure to consider the dependency across samples of the latent variable that models within-class variability. While the identity of the nuisance condition is needed during training, it is not needed during testing since we propose a scoring procedure that marginalizes over the corresponding latent variable. We show results on a multilingual speaker-verification task, where the language spoken is considered a nuisance condition. The proposed joint PLDA approach leads to significant performance gains in this task for two different data sets, in particular when the training data contains mostly or only monolingual speakers.",
+    "authors": [
+        "Luciana Ferrer",
+        "Mitchell McLaren"
+    ],
+    "emails": [
+        "lferrer@dc.uba.ar",
+        "mitchell.mclaren@sri.com"
+    ],
+    "id": "18-134",
+    "issue": 24,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Joint PLDA for Simultaneous Modeling of Two Factors",
+    "volume": 20,
+    "year": 2019
+}

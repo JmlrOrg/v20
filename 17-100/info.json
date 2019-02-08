@@ -1,0 +1,21 @@
+{
+    "abstract": "The scikit-multilearn is a Python library for performing multi-label classification. It is compatible with the scikit-learn and scipy ecosystems and uses sparse matrices for all internal operations; provides native Python implementations of popular multi-label classification methods alongside a novel framework for label space partitioning and division and includes modern algorithm adaptation methods, network-based label space division approaches, which extracts label dependency information and multi-label embedding classifiers. The library provides Python wrapped access to the extensive multi-label method stack from Java libraries and makes it possible to extend deep learning single-label methods for multi-label tasks. The library allows multi-label stratification and data set management. The implementation is more efficient in problem transformation than other established libraries, has good test coverage and follows PEP8. Source code and documentation can be downloaded from http://scikit.ml and also via pip The project is BSD-licensed.",
+    "authors": [
+        "Piotr Szymański",
+        "Tomasz Kajdanowicz"
+    ],
+    "emails": [
+        "piotr.szymanski@pwr.edu.pl",
+        "piotr.szymanski@illimites.edu.pl",
+        "tomasz.kajdanowicz@pwr.edu.pl"
+    ],
+    "id": "17-100",
+    "issue": 6,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "scikit-multilearn: A Python library for Multi-Label Classification",
+    "volume": 20,
+    "year": 2019
+}

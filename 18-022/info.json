@@ -1,0 +1,22 @@
+{
+    "abstract": "We study robust PCA for the fully observed setting, which is about separating a low rank matrix $\\BL$ and a sparse matrix $\\BS$ from their sum $\\BD=\\BL+\\BS$. In this paper, a new algorithm, dubbed accelerated alternating projections, is introduced for robust PCA which significantly improves the computational efficiency of the existing alternating projections proposed in (Netrapalli et al., 2014) when updating the low rank factor. The acceleration is achieved by first projecting a matrix onto some low dimensional subspace before obtaining a new estimate of the low rank matrix via truncated SVD. Exact recovery guarantee has been established which shows linear convergence of the proposed algorithm. Empirical performance evaluations establish the advantage of our algorithm over other state-of-the-art algorithms for robust PCA.",
+    "authors": [
+        "HanQin Cai",
+        "Jian-Feng Cai",
+        "Ke Wei"
+    ],
+    "emails": [
+        "hqcai@math.ucla.edu",
+        "jfcai@ust.hk",
+        "kewei@fudan.edu.cn"
+    ],
+    "id": "18-022",
+    "issue": 20,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Accelerated Alternating Projections for Robust Principal Component Analysis",
+    "volume": 20,
+    "year": 2019
+}

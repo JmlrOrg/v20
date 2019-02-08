@@ -1,0 +1,22 @@
+{
+    "abstract": "Statistical relational learning is primarily concerned with learning and inferring relationships between entities in large-scale knowledge graphs.  Nickel et al. (2011) proposed a RESCAL tensor factorization model for statistical relational learning, which achieves better or at least comparable results on common benchmark data sets when compared to other state-of-the-art methods. Given a positive integer $s$, RESCAL computes an $s$-dimensional latent vector for each entity. The latent factors can be further used for solving relational learning tasks, such as collective classification, collective entity resolution and link-based clustering. The focus of this paper is to determine the number of latent factors in the RESCAL model. Due to the structure of the RESCAL model, its log-likelihood function is not concave. As a result, the corresponding maximum likelihood estimators (MLEs) may not be consistent. Nonetheless, we design a specific pseudometric, prove the consistency of the MLEs under this pseudometric and establish its rate of convergence. Based on these results, we propose a general class of information criteria and prove their model selection consistencies when the number of relations is either bounded or diverges at a proper rate of the number of entities. Simulations and real data examples show that our proposed information criteria have good finite sample properties.",
+    "authors": [
+        "Chengchun Shi",
+        "Wenbin Lu",
+        "Rui Song"
+    ],
+    "emails": [
+        "email{cshi4@ncsu.edu",
+        "email{lu@stat.ncsu.edu",
+        "email{rsong@ncsu.edu"
+    ],
+    "id": "18-037",
+    "issue": 23,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Determining the Number of Latent Factors in Statistical Multi-Relational Learning",
+    "volume": 20,
+    "year": 2019
+}

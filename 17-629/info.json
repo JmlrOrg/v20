@@ -1,0 +1,24 @@
+{
+    "abstract": "Recommender systems predict users' preferences over a large number of items by pooling similar information from other users and/or items in the presence of sparse observations. One major challenge is how to utilize user-item specific covariates and networks describing user-item interactions in a high-dimensional situation, for accurate personalized prediction. In this article, we propose a smooth neighborhood recommender in the framework of the latent factor models. A similarity kernel is utilized to borrow neighborhood information from continuous covariates over a user-item specific network, such as a user's social network, where the grouping information defined by discrete covariates is also integrated through the network. Consequently, user-item specific information is built into the recommender to battle the `cold-start'' issue in the absence of observations in collaborative and content-based filtering. Moreover, we utilize a ``divide-and-conquer'' version of the alternating least squares algorithm to achieve scalable computation, and establish asymptotic results for the proposed method, demonstrating that it achieves superior prediction accuracy. Finally, we illustrate that the proposed method improves substantially over its competitors in simulated examples and real benchmark data--Last.fm music data.",
+    "authors": [
+        "Ben Dai",
+        "Junhui Wang",
+        "Xiaotong Shen",
+        "Annie Qu"
+    ],
+    "emails": [
+        "bendai2-c@my.cityu.edu.hk",
+        "j.h.wang@cityu.edu.hk",
+        "xshen@umn.edu",
+        "anniequ@illinois.edu"
+    ],
+    "id": "17-629",
+    "issue": 16,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Smooth neighborhood recommender systems",
+    "volume": 20,
+    "year": 2019
+}

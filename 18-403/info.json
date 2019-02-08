@@ -1,0 +1,36 @@
+{
+    "abstract": "Pyro is a probabilistic programming language built on Python as a platform for developing advanced probabilistic models in AI research. To scale to large data sets and high-dimensional models, Pyro uses stochastic variational inference algorithms and probability distributions built on top of PyTorch, a modern GPU-accelerated deep learning framework. To accommodate complex or model-specific algorithmic behavior, Pyro leverages Poutine, a library of composable building blocks for modifying the behavior of probabilistic programs.",
+    "authors": [
+        "Eli Bingham",
+        "Jonathan P. Chen",
+        "Martin Jankowiak",
+        "Fritz Obermeyer",
+        "Neeraj Pradhan",
+        "Theofanis Karaletsos",
+        "Rohit Singh",
+        "Paul Szerlip",
+        "Paul Horsfall",
+        "Noah D. Goodman"
+    ],
+    "emails": [
+        "eli.bingham@uber.com",
+        "jpchen@uber.com",
+        "jankowiak@uber.com",
+        "fritzo@uber.com",
+        "npradhan@uber.com",
+        "theofanis@uber.com",
+        "rohits@uber.com",
+        "pas@uber.com",
+        "horsfallp@gmail.com",
+        "ngoodman@stanford.edu"
+    ],
+    "id": "18-403",
+    "issue": 28,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "Pyro: Deep Universal Probabilistic Programming",
+    "volume": 20,
+    "year": 2019
+}

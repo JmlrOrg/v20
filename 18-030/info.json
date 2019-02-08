@@ -1,0 +1,22 @@
+{
+    "abstract": "Kernel-based methods exhibit well-documented performance in various nonlinear learning tasks. Most of them rely on a preselected kernel, whose prudent choice presumes task-specific prior information. Especially when the latter is not available, multi-kernel learning has gained popularity thanks to its flexibility in choosing kernels from a prescribed kernel dictionary. Leveraging the random feature approximation and its recent orthogonality-promoting variant, the present contribution develops a scalable multi-kernel learning scheme (termed Raker) to obtain the sought nonlinear learning function `on the fly,' first for static environments. To further boost performance in dynamic environments, an adaptive multi-kernel learning scheme (termed AdaRaker) is developed. AdaRaker accounts not only for data-driven learning of kernel combination, but also for the unknown dynamics. Performance is analyzed in terms of both static and dynamic regrets. AdaRaker is uniquely capable of tracking nonlinear learning functions in environments with unknown dynamics, and with with analytic performance guarantees Tests with synthetic and real datasets are carried out to showcase the effectiveness of the novel algorithms.",
+    "authors": [
+        "Yanning Shen",
+        "Tianyi Chen",
+        "Georgios B. Giannakis"
+    ],
+    "emails": [
+        "shenx513@umn.edu",
+        "chen3827@umn.edu",
+        "georgios@umn.edu"
+    ],
+    "id": "18-030",
+    "issue": 22,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Random Feature-based Online Multi-kernel Learning in Environments with Unknown Dynamics",
+    "volume": 20,
+    "year": 2019
+}

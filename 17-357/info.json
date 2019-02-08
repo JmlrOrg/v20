@@ -1,0 +1,20 @@
+{
+    "abstract": "We study the pricing problem faced by a firm that sells a large number of products, described via a wide range of features, to customers that arrive over time. Customers independently make purchasing decisions according to a general choice model that includes products features and customers' characteristics, encoded as $d$-dimensional numerical vectors, as well as the price offered. The parameters of the choice model are a priori unknown to the firm, but can be learned as the (binary-valued) sales data accrues over time. The firm's objective is to maximize its revenue. We benchmark the performance using the classic regret minimization framework where the regret is defined as the expected revenue loss against a clairvoyant policy that knows the parameters of the choice model in advance, and always offers the revenue-maximizing price. This setting is motivated in part by the prevalence of online marketplaces that allow for real-time pricing. We assume a structured choice model, parameters of which depend on $s_0$ out of the $d$ product features. Assuming that the market noise distribution is known, we propose a dynamic policy, called Regularized Maximum Likelihood Pricing (RMLP) that leverages the (sparsity) structure of the high-dimensional model and obtains a logarithmic regret in $T$. More specifically, the regret of our algorithm is of $O(s_0 \\log d \\cdot \\log T)$. Furthermore, we show that no policy can obtain regret better than $O(s_0 (\\log d + \\log T))$. {In addition, we propose a generalization of our policy to a setting that the market noise distribution is unknown but belongs to a parametrized family of distributions. This policy obtains regret of $O(\\sqrt{(\\log d)T})$. We further show that no policy can obtain regret better than $\\Omega(\\sqrt{T})$ in such environments.}",
+    "authors": [
+        "Adel Javanmard",
+        "Hamid Nazerzadeh"
+    ],
+    "emails": [
+        "ajavanma@usc.edu",
+        "nazerzad@usc.edu"
+    ],
+    "id": "17-357",
+    "issue": 9,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Dynamic Pricing in High-dimensions",
+    "volume": 20,
+    "year": 2019
+}
