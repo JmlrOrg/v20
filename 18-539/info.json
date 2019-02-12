@@ -1,6 +1,7 @@
 {
     "abstract": "A classic finding by (Kalish et al., 2007) shows that no language can be learned iteratively by rational agents in a self-sustained manner. In other words, if $A$ teaches a foreign language to $B$, who then teaches what she learned to $C$, and so on, the language will quickly get lost and agents will wind up teaching their own common native language. If so, how can linguistic novelty ever be sustained? We address this apparent paradox by considering the case of iterated learning in a social network: we show that by varying the lengths of the learning sessions over time or by keeping the networks dynamic, it is possible for iterated learning to endure forever with arbitrarily small loss.",
     "authors": [
+        "Bernhard Chazelle",
         "Chu Wang"
     ],
     "emails": [
