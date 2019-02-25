@@ -19,7 +19,7 @@
     "volume": 20,
     "year": 2019,
     "extra_links": [
-        ["webpage", "http://scikit.ml/"]
+        ["code", "http://scikit.ml/"]
       ],
     "special_issue": "MLOSS"
 }
