@@ -17,5 +17,9 @@
     ],
     "title": "scikit-multilearn: A Python library for Multi-Label Classification",
     "volume": 20,
-    "year": 2019
+    "year": 2019,
+    "extra_links": [
+        ["webpage", "http://scikit.ml/"]
+      ],
+    "special_issue": "MLOSS"
 }

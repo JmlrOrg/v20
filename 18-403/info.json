@@ -32,5 +32,9 @@
     ],
     "title": "Pyro: Deep Universal Probabilistic Programming",
     "volume": 20,
-    "year": 2019
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/pyro-ppl/pyro"]
+      ],
+    "special_issue": "MLOSS"
 }

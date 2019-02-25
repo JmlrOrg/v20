@@ -18,5 +18,10 @@
     ],
     "title": "spark-crowd: A Spark Package for Learning from Crowdsourced Big Data",
     "volume": 20,
-    "year": 2019
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/enriquegrodrigo/spark-crowd"]
+      ],
+    "special_issue": "MLOSS"
 }
+

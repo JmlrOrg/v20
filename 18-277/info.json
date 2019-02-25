@@ -20,5 +20,9 @@
     ],
     "title": "TensorLy: Tensor Learning in Python",
     "volume": 20,
-    "year": 2019
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/tensorly/tensorly"]
+      ],
+    "special_issue": "MLOSS"
 }
