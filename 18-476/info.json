@@ -1,0 +1,22 @@
+{
+    "abstract": "Recently, deep reinforcement learning (RL) methods have been applied successfully to multi-agent scenarios. Typically, the observation vector for decentralized decision making is represented by a concatenation of the (local) information an agent gathers about other agents. However, concatenation scales poorly to swarm systems with a large number of homogeneous agents as it does not exploit the fundamental properties inherent to these systems: (i) the agents in the swarm are interchangeable and (ii) the exact number of agents in the swarm is irrelevant. Therefore, we propose a new state representation for deep multi-agent RL based on mean embeddings of distributions, where we treat the agents as samples and use the empirical mean embedding as input for a decentralized policy. We define different feature spaces of the mean embedding using histograms, radial basis functions and neural networks trained end-to-end. We evaluate the representation on two well-known problems from the swarm literature in a globally and locally observable setup. For the local setup we furthermore introduce simple communication protocols. Of all approaches, the mean embedding representation using neural network features enables the richest information exchange between neighboring agents, facilitating the development of complex collective strategies.",
+    "authors": [
+        "Maximilian Huttenrauch",
+        "Adrian Sosic",
+        "Gerhard Neumann"
+    ],
+    "emails": [
+        "mhuettenrauch@lincoln.ac.uk",
+        "adrian.sosic@bcs.tu-darmstadt.de",
+        "gneumann@lincoln.ac.uk"
+    ],
+    "id": "18-476",
+    "issue": 132,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Deep Reinforcement Learning for Swarm Systems ",
+    "volume": 20,
+    "year": 2019
+}

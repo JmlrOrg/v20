@@ -1,0 +1,20 @@
+{
+    "abstract": "As a model problem for clustering, we consider the densest $k$-disjoint-clique problem of partitioning a weighted complete graph into $k$ disjoint subgraphs such that the sum of the densities of these subgraphs is maximized. We establish that such subgraphs can be recovered from the solution of a particular semidefinite relaxation with high probability if the input graph is sampled from a distribution of clusterable graphs. Specifically, the semidefinite relaxation is exact if the graph consists of \\(k\\) large disjoint subgraphs, corresponding to clusters, with weight concentrated within these subgraphs, plus a moderate number of nodes not belonging to any cluster. Further, we establish that if noise is weakly obscuring these clusters, i.e, the between-cluster edges are assigned very small weights, then we can recover significantly smaller clusters. For example, we show that in approximately sparse graphs, where the between-cluster weights tend to zero as the size $n$ of the graph tends to infinity, we can recover clusters of size polylogarithmic in $n$ under certain conditions on the distribution of edge weights. Empirical evidence from numerical simulations is also provided to support these theoretical phase transitions to perfect recovery of the cluster structure.",
+    "authors": [
+        "Aleksis Pirinen",
+        "Brendan Ames"
+    ],
+    "emails": [
+        "aleksis@maths.lth.se",
+        "bpames@ua.edu"
+    ],
+    "id": "16-128",
+    "issue": 108,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Exact Clustering of Weighted Graphs via Semidefinite Programming",
+    "volume": 20,
+    "year": 2019
+}

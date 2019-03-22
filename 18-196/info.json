@@ -1,0 +1,24 @@
+{
+    "abstract": "Learning for control can acquire controllers for novel robotic tasks, paving the path for autonomous agents. Such controllers can be expert-designed policies, which typically require tuning of parameters for each task scenario. In this context, Bayesian optimization (BO) has emerged as a promising approach for automatically tuning controllers. However, sample-efficiency can still be an issue for high-dimensional policies on hardware. Here, we develop an approach that utilizes simulation to learn structured feature transforms that map the original parameter space into a domain-informed space. During BO, similarity between controllers is now calculated in this transformed space. Experiments on the ATRIAS robot hardware and simulation show that our approach succeeds at sample-efficiently learning controllers for multiple robots. Another question arises: What if the simulation significantly differs from hardware? To answer this, we create increasingly approximate simulators and study the effect of increasing simulation-hardware mismatch on the performance of Bayesian optimization. We also compare our approach to other approaches from literature, and find it to be more reliable, especially in cases of high mismatch. Our experiments show that our approach succeeds across different controller types, bipedal robot models and simulator fidelity levels, making it applicable to a wide range of bipedal locomotion problems.",
+    "authors": [
+        "Akshara Rai",
+        "Rika Antonova",
+        "Franziska Meier",
+        "Christopher G. Atkeson"
+    ],
+    "emails": [
+        "arai@cs.cmu.edu",
+        "antonova@kth.se",
+        "franzi.meier@gmail.com",
+        "cga@cs.cmu.edu"
+    ],
+    "id": "18-196",
+    "issue": 127,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "Using Simulation to Improve Sample-Efficiency of Bayesian Optimization for Bipedal Robots",
+    "volume": 20,
+    "year": 2019
+}

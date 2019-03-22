@@ -1,0 +1,26 @@
+{
+    "abstract": "Individualized treatment rules aim to identify if, when, which, and to whom treatment should be applied. A globally aging population, rising healthcare costs, and increased access to patient-level data have created an urgent need for high-quality estimators of individualized treatment rules that can be applied to observational data. A recent and promising line of research for estimating individualized treatment rules recasts the problem of estimating an optimal treatment rule as a weighted classification problem. We consider a class of estimators for optimal treatment rules that are analogous to convex large-margin classifiers. The proposed class applies to observational data and is doubly-robust in the sense that correct specification of either a propensity or outcome model leads to consistent estimation of the optimal individualized treatment rule. Using techniques from semiparametric efficiency theory, we derive rates of convergence for the proposed estimators and use these rates to characterize the bias-variance trade-off for estimating individualized treatment rules with classification-based methods. Simulation experiments informed by these results demonstrate that it is possible to construct new estimators within the proposed framework that significantly outperform existing ones. We illustrate the proposed methods using data from a labor training program and a study of inflammatory bowel syndrome.",
+    "authors": [
+        "Ying-Qi Zhao",
+        "Eric B. Laber",
+        "Yang Ning",
+        "Sumona Saha",
+        "Bruce E. Sands"
+    ],
+    "emails": [
+        "email{yqzhao@fredhutch.org",
+        "email{eblaber@ncsu.edu",
+        "email{yn265@cornell.edu",
+        "email{ssaha@medicine.wisc.edu",
+        "email{bruce.sands@mssm.edu"
+    ],
+    "id": "18-191",
+    "issue": 126,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Efficient augmentation and relaxation learning for individualized treatment rules using observational data",
+    "volume": 20,
+    "year": 2019
+}

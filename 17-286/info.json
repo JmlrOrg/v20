@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper investigates the behavior of the Min-Sum message passing scheme to solve systems of linear equations in the Laplacian matrices of graphs and to compute electric flows. Voltage and flow problems involve the minimization of quadratic functions and are fundamental primitives that arise in several domains. Algorithms that have been proposed are typically centralized and involve multiple graph-theoretic constructions or sampling mechanisms that make them difficult to implement and analyze. On the other hand, message passing routines are distributed, simple, and easy to implement. In this paper we establish a framework to analyze Min-Sum to solve voltage and flow problems. We characterize the error committed by the algorithm on general weighted graphs in terms of hitting times of random walks defined on the computation trees that support the operations of the algorithms with time. For $d$-regular graphs with equal weights, we show that the convergence of the algorithms is controlled by the total variation distance between the distributions of non-backtracking random walks defined on the original graph that start from neighboring nodes. The framework that we introduce extends the analysis of Min-Sum to settings where the contraction arguments previously considered in the literature (based on the assumption of walk summability or scaled diagonal dominance) can not be used, possibly in the presence of constraints.",
+    "authors": [
+        "Patrick Rebeschini",
+        "Sekhar Tatikonda"
+    ],
+    "emails": [
+        "patrick.rebeschini@stats.ox.ac.uk",
+        "sekhar.tatikonda@yale.edu"
+    ],
+    "id": "17-286",
+    "issue": 114,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "A New Approach to Laplacian Solvers and Flow Problems",
+    "volume": 20,
+    "year": 2019
+}

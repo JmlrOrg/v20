@@ -1,0 +1,22 @@
+{
+    "abstract": "We develop the mathematical foundations of the stochastic modified equations (SME) framework for analyzing the dynamics of stochastic gradient algorithms, where the latter is approximated by a class of stochastic differential equations with small noise parameters. We prove that this approximation can be understood mathematically as an weak approximation, which leads to a number of precise and useful results on the approximations of stochastic gradient descent (SGD), momentum SGD and stochastic Nesterov's accelerated gradient method in the general setting of stochastic objectives. We also demonstrate through explicit calculations that this continuous-time approach can uncover important analytical insights into the stochastic gradient algorithms under consideration that may not be easy to obtain in a purely discrete-time setting.",
+    "authors": [
+        "Qianxiao Li",
+        "Cheng Tai",
+        "Weinan E"
+    ],
+    "emails": [
+        "liqix@ihpc.a-star.edu.sg",
+        "chengtai@pku.edu.cn",
+        "weinan@math.princeton.edu"
+    ],
+    "id": "17-526",
+    "issue": 118,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Stochastic Modified Equations and Dynamics of Stochastic Gradient Algorithms I: Mathematical Foundations",
+    "volume": 20,
+    "year": 2019
+}

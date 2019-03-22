@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider spectral clustering algorithms for community detection under a general bipartite stochastic block model (SBM). A modern spectral clustering algorithm consists of three steps: (1) regularization of an appropriate adjacency or Laplacian matrix (2) a form of spectral truncation and (3) a kmeans type algorithm in the reduced spectral domain. We focus on the adjacency-based spectral clustering and for the first step, propose a new data-driven regularization that can restore the concentration of the adjacency matrix even for the sparse networks. This result is based on recent work on regularization of random binary matrices, but avoids using unknown population level parameters, and instead estimates the necessary quantities from the data. We also propose and study a novel variation of the spectral truncation step and show how this variation changes the nature of the misclassification rate in a general SBM. We then show how the consistency results can be extended to models beyond SBMs, such as inhomogeneous random graph models with approximate clusters, including a graphon clustering problem, as well as general sub-Gaussian biclustering. A theme of the paper is providing a better understanding of the analysis of spectral methods for community detection and establishing consistency results, under fairly general clustering models and for a wide regime of degree growths, including sparse cases where the average expected degree grows arbitrarily slowly.",
+    "authors": [
+        "Zhixin Zhou",
+        "Arash A.Amini"
+    ],
+    "emails": [
+        "zhixin@g.ucla.edu",
+        "aaamini@ucla.edu"
+    ],
+    "id": "18-170",
+    "issue": 125,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Analysis of spectral clustering algorithms for community detection: the general bipartite setting",
+    "volume": 20,
+    "year": 2019
+}

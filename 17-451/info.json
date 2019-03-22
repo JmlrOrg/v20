@@ -1,0 +1,22 @@
+{
+    "abstract": "In recent years, randomized methods for numerical linear algebra have received growing interest as a general approach to large-scale problems. Typically, the essential ingredient of these methods is some form of randomized dimension reduction, which accelerates computations, but also creates random approximation error. In this way, the dimension reduction step encodes a tradeoff between cost and accuracy. However, the exact numerical relationship between cost and accuracy is typically unknown, and consequently, it may be difficult for the user to precisely know (1) how accurate a given solution is, or (2) how much computation is needed to achieve a given level of accuracy. In the current paper, we study randomized matrix multiplication (sketching) as a prototype setting for addressing these general problems. As a solution, we develop a bootstrap method for directly estimating the accuracy as a function of the reduced dimension (as opposed to deriving worst-case bounds on the accuracy in terms of the reduced dimension). From a computational standpoint, the proposed method does not substantially increase the cost of standard sketching methods, and this is made possible by an ``extrapolation'' technique. In addition, we provide both theoretical and empirical results to demonstrate the effectiveness of the proposed method.",
+    "authors": [
+        "Miles E. Lopes",
+        "Shusen Wang",
+        "Michael W. Mahoney"
+    ],
+    "emails": [
+        "melopes@ucdavis.edu",
+        "shusen.wang@stevens.edu",
+        "mmahoney@stat.berkeley.edu"
+    ],
+    "id": "17-451",
+    "issue": 117,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "A Bootstrap Method for Error Estimation in Randomized Matrix Multiplication",
+    "volume": 20,
+    "year": 2019
+}

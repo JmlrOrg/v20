@@ -1,0 +1,26 @@
+{
+    "abstract": "The frequent directions (FD) technique is a deterministic approach for online sketching that has many applications in machine learning. The conventional FD is a heuristic procedure that often outputs rank deficient matrices. To overcome the rank deficiency problem, we propose a new sketching strategy called robust frequent directions (RFD) by introducing a regularization term. RFD can be derived from an optimization problem. It updates the sketch matrix and the regularization term adaptively and jointly. RFD reduces the approximation error of FD without increasing the computational cost. We also apply RFD to online learning and propose an effective hyperparameter-free online Newton algorithm. We derive a regret bound for our online Newton algorithm based on RFD, which guarantees the robustness of the algorithm. The experimental studies demonstrate that the proposed method outperforms state-of-the-art second order online learning algorithms.",
+    "authors": [
+        "Luo Luo",
+        "Cheng Chen",
+        "Zhihua Zhang",
+        "Wu-Jun Li",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "ricky@sjtu.edu.cn",
+        "_chen1990@sjtu.edu.cn",
+        "zhzhang@math.pku.edu.cn",
+        "liwujun@nju.edu.cn",
+        "tongzhang@tongzhang-ml.org"
+    ],
+    "id": "17-773",
+    "issue": 123,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Robust Frequent Directions with Application in Online Learning",
+    "volume": 20,
+    "year": 2019
+}

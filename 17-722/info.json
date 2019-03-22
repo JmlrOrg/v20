@@ -1,0 +1,30 @@
+{
+    "abstract": "We describe a new library named picasso, which implements a unified framework of pathwise coordinate optimization for a variety of sparse learning problems (e.g., sparse linear regression, sparse logistic regression, sparse Poisson regression and scaled sparse linear regression) combined with efficient active set selection strategies. Besides, the library allows users to choose different sparsity-inducing regularizers, including the convex $\\ell_1$, nonvoncex MCP and SCAD regularizers. The library is coded in \\texttt{C++} and has user-friendly R and Python wrappers. Numerical experiments demonstrate that picasso can scale up to large problems efficiently.",
+    "authors": [
+        "Jason Ge",
+        "Xingguo Li",
+        "Haoming Jiang",
+        "Han Liu",
+        "Tong Zhang",
+        "Mengdi Wang",
+        "Tuo Zhao"
+    ],
+    "emails": [
+        "jiange@princeton.edu",
+        "lixx1661@umn.edu",
+        "jianghm@gatech.edu",
+        "hanliu@northwestern.edu",
+        "tongzhang@tongzhang-ml.org",
+        "mengdiw@princeton.edu",
+        "tuo.zhao@isye.gatech.edu"
+    ],
+    "id": "17-722",
+    "issue": 122,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "Picasso: A Sparse Learning Library for High Dimensional Data Analysis in R and Python",
+    "volume": 20,
+    "year": 2019
+}

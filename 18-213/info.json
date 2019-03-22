@@ -1,0 +1,22 @@
+{
+    "abstract": "Bayesian optimization (BO) based on Gaussian process models is a powerful paradigm to optimize black-box functions that are expensive to evaluate. While several BO algorithms provably converge to the global optimum of the unknown function, they assume that the hyperparameters of the kernel are known in advance. This is not the case in practice and misspecification often causes these algorithms to converge to poor local optima. In this paper, we present the first BO algorithm that is provably no-regret and converges to the optimum without knowledge of the hyperparameters. During optimization we slowly adapt the hyperparameters of stationary kernels and thereby expand the associated function class over time, so that the BO algorithm considers more complex function candidates. Based on the theoretical insights, we propose several practical algorithms that achieve the empirical sample efficiency of BO with online hyperparameter estimation, but retain theoretical convergence guarantees. We evaluate our method on several benchmark problems.",
+    "authors": [
+        "Felix Berkenkamp",
+        "Angela P. Schoellig",
+        "Andreas Krause"
+    ],
+    "emails": [
+        "befelix@inf.ethz.ch",
+        "schoellig@utias.utoronto.ca",
+        "krausea@ethz.ch"
+    ],
+    "id": "18-213",
+    "issue": 128,
+    "pages": [
+        1,
+        24
+    ],
+    "title": "No-Regret Bayesian Optimization with Unknown Hyperparameters",
+    "volume": 20,
+    "year": 2019
+}

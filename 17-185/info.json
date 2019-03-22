@@ -1,0 +1,20 @@
+{
+    "abstract": "The trade-off between the cost of acquiring and processing data, and uncertainty due to a lack of data is fundamental in machine learning. A basic instance of this trade-off is the problem of deciding when to make noisy and costly observations of a discrete-time Gaussian random walk, so as to minimise the posterior variance plus observation costs. We present the first proof that a simple policy, which observes when the posterior variance exceeds a threshold, is optimal for this problem. The proof generalises to a wide range of cost functions other than the posterior variance. It is based on a new verification theorem by Nino-Mora that guarantees threshold structure for Markov decision processes, and on the relation between binary sequences known as Christoffel words and the dynamics of discontinuous nonlinear maps, which frequently arise in physics, control and biology. This result implies that optimal policies for linear-quadratic-Gaussian control with costly observations have a threshold structure. It also implies that the restless bandit problem of observing multiple such time series, has a well-defined Whittle index policy. We discuss computation of that index, give closed-form formulae for it, and compare the performance of the associated index policy with heuristic policies.",
+    "authors": [
+        "Christopher R. Dance",
+        "Tomi Silander"
+    ],
+    "emails": [
+        "chris.dance@naverlabs.com",
+        "tomi.silander@naverlabs.com"
+    ],
+    "id": "17-185",
+    "issue": 113,
+    "pages": [
+        1,
+        93
+    ],
+    "title": "Optimal Policies for Observing Time Series and Related Restless Bandit Problems",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we introduce a learning algorithm, boosted kernel ridge regression (BKRR), that combines $L_2$-Boosting with the kernel ridge regression (KRR). We analyze the learning performance of this algorithm in the framework of learning theory. We show that BKRR provides a new bias-variance trade-off via tuning the number of boosting iterations, which is different from KRR via adjusting the regularization parameter. A (semi-)exponential bias-variance trade-off is derived for BKRR, exhibiting a stable relationship between the generalization error and the number of iterations. Furthermore, an adaptive stopping rule is proposed, with which BKRR achieves the optimal learning rate without saturation.",
+    "authors": [
+        "Shao-Bo Lin",
+        "Yunwen Lei",
+        "Ding-Xuan Zhou"
+    ],
+    "emails": [
+        "sblin1983@gmail.com",
+        "leiyw@sustc.edu.cn",
+        "mazhou@cityu.edu.hk"
+    ],
+    "id": "18-063",
+    "issue": 124,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Boosted Kernel Ridge Regression: Optimal Learning Rates and Early Stopping",
+    "volume": 20,
+    "year": 2019
+}

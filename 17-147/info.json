@@ -1,0 +1,20 @@
+{
+    "abstract": "A selective classifier $(f,g)$ comprises a classification function $f$ and a binary selection function $g$, which determines if the classifier abstains from prediction, or uses $f$ to predict. The classifier is called pointwise-competitive if it classifies each point identically to the best classifier in hindsight (from the same class), whenever it does not abstain. The quality of such a classifier is quantified by its rejection mass, defined to be the probability mass of the points it rejects. A ``fast'' rejection rate is achieved if the rejection mass is bounded from above by $\\tilde{O}(1/m)$ where $m$ is the number of labeled examples used to train the classifier (and $\\tilde{O}$ hides logarithmic factors). Pointwise-competitive selective (PCS) classifiers are intimately related to disagreement-based active learning and it is known that in the realizable case, a fast rejection rate of a known PCS algorithm (called Consistent Selective Strategy) is equivalent to an exponential speedup of the well-known CAL active algorithm. We focus on the agnostic setting, for which there is a known algorithm called LESS that learns a PCS classifier and achieves a fast rejection rate (depending on Hanneke\u00e2\u0080\u0099s disagreement coefficient) under strong assumptions. We present an improved PCS learning algorithm called ILESS for which we show a fast rate (depending on Hanneke's disagreement coefficient) without any assumptions. Our rejection bound smoothly interpolates the realizable and agnostic settings. The main result of this paper is an equivalence between the following three entities: (i) the existence of a fast rejection rate for any PCS learning algorithm (such as ILESS); (ii) a poly-logarithmic bound for Hanneke's disagreement coefficient; and (iii) an exponential speedup for a new disagreement-based active learner called {\\ActiveiLESS}.",
+    "authors": [
+        "Roei Gelbhart",
+        "Ran El-Yaniv"
+    ],
+    "emails": [
+        "roeige@cs.technion.ac.il",
+        "rani@cs.technion.ac.il"
+    ],
+    "id": "17-147",
+    "issue": 111,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "The Relationship Between Agnostic Selective Classification, Active Learning and the Disagreement Coefficient",
+    "volume": 20,
+    "year": 2019
+}

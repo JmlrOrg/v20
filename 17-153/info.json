@@ -1,0 +1,22 @@
+{
+    "abstract": "Community detection or clustering is a fundamental task in the analysis of network data. Many real networks have a bipartite structure which makes community detection challenging. In this paper, we consider a model which allows for matched communities in the bipartite setting, in addition to node covariates with information about the matching. We derive a simple fast algorithm for fitting the model based on variational inference ideas and show its effectiveness on both simulated and real data. A variation of the model to allow for degree-correction is also considered, in addition to a novel approach to fitting such degree-corrected models.",
+    "authors": [
+        "Zahra S. Razaee",
+        "Arash A. Amini",
+        "Jingyi Jessica Li"
+    ],
+    "emails": [
+        "razaee@ucla.edu",
+        "aaamini@stat.ucla.edu",
+        "jli@stat.ucla.edu"
+    ],
+    "id": "17-153",
+    "issue": 112,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "Matched Bipartite Block Model with Covariates",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We present a mathematical analysis of a non-convex energy landscape for robust subspace recovery. We prove that an underlying subspace is the only stationary point and local minimizer in a specified neighborhood under a deterministic condition on a dataset. If the deterministic condition is satisfied, we further show that a geodesic gradient descent method over the Grassmannian manifold can exactly recover the underlying subspace when the method is properly initialized. Proper initialization by principal component analysis is guaranteed with a simple deterministic condition. Under slightly stronger assumptions, the gradient descent method with a piecewise constant step-size scheme achieves linear convergence. The practicality of the deterministic condition is demonstrated on some statistical models of data, and the method achieves almost state-of-the-art recovery guarantees on the Haystack Model for different regimes of sample size and ambient dimension. In particular, when the ambient dimension is fixed and the sample size is large enough, we show that our gradient method can exactly recover the underlying subspace for any fixed fraction of outliers (less than 1).",
+    "authors": [
+        "Tyler Maunu",
+        "Teng Zhang",
+        "Gilad Lerman"
+    ],
+    "emails": [
+        "maunut@mit.edu",
+        "teng.zhang@ucf.edu",
+        "lerman@umn.edu"
+    ],
+    "id": "17-324",
+    "issue": 115,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "A Well-Tempered Landscape for Non-convex Robust Subspace Recovery",
+    "volume": 20,
+    "year": 2019
+}

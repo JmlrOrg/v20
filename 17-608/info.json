@@ -1,0 +1,24 @@
+{
+    "abstract": "Machine learning with big data often involves large optimization models. For distributed optimization over a cluster of machines, frequent communication and synchronization of all model parameters (optimization variables) can be very costly. A promising solution is to use parameter servers to store different subsets of the model parameters, and update them asynchronously at different machines using local datasets. In this paper, we focus on distributed optimization of large linear models with convex loss functions, and propose a family of randomized primal-dual block coordinate algorithms that are especially suitable for asynchronous distributed implementation with parameter servers. In particular, we work with the saddle-point formulation of such problems which allows simultaneous data and model partitioning, and exploit its structure by doubly stochastic coordinate optimization with variance reduction (DSCOVR). Compared with other first-order distributed algorithms, we show that DSCOVR may require less amount of overall computation and communication, and less or no synchronization. We discuss the implementation details of the DSCOVR algorithms, and present numerical experiments on an industrial distributed computing system.",
+    "authors": [
+        "Lin Xiao",
+        "Adams Wei Yu",
+        "Qihang Lin",
+        "Weizhu Chen"
+    ],
+    "emails": [
+        "lin.xiao@microsoft.com",
+        "weiyu@cs.cmu.edu",
+        "qihang-lin@uiowa.edu",
+        "wzchen@microsoft.com"
+    ],
+    "id": "17-608",
+    "issue": 121,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "DSCOVR: Randomized Primal-Dual Block Coordinate Algorithms for Asynchronous Distributed Optimization",
+    "volume": 20,
+    "year": 2019
+}

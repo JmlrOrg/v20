@@ -1,0 +1,20 @@
+{
+    "abstract": "We present a novel framework for learning with sequential data of any kind, such as multivariate time series, strings, or sequences of graphs. The main result is a ''sequentialization'' that transforms any kernel on a given domain into a kernel for sequences in that domain. This procedure preserves properties such as positive definiteness, the associated kernel feature map is an ordered variant of sample (cross-)moments, and this sequentialized kernel is consistent in the sense that it converges to a kernel for paths if sequences converge to paths (by discretization). Further, classical kernels for sequences arise as special cases of this method. We use dynamic programming and low-rank techniques for tensors to provide efficient algorithms to compute this sequentialized kernel.",
+    "authors": [
+        "Franz J. Kiraly",
+        "Harald Oberhauser"
+    ],
+    "emails": [
+        "f.kiraly@ucl.ac.uk",
+        "oberhauser@maths.ox.ac.uk"
+    ],
+    "id": "16-314",
+    "issue": 109,
+    "pages": [
+        1,
+        45
+    ],
+    "title": "Kernels for Sequentially Ordered Data",
+    "volume": 20,
+    "year": 2019
+}

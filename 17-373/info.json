@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we consider three typical optimization problems with a convex loss function and a nonconvex sparse penalty or constraint. For the sparse penalized problem, we prove that finding an $\\mathcal{O}(n^{c_1}d^{c_2})$-optimal solution to an $n\\times d$ problem is strongly NP-hard for any $c_1, c_2\\in [0,1)$ such that $c_1+c_2<1$. For two constrained versions of the sparse optimization problem, we show that it is intractable to approximately compute a solution path associated with increasing values of some tuning parameter. The hardness results apply to a broad class of loss functions and sparse penalties. They suggest that one cannot even approximately solve these three problems in polynomial time, unless P $=$ NP.",
+    "authors": [
+        "Yichen Chen",
+        "Yinyu Ye",
+        "Mengdi Wang"
+    ],
+    "emails": [
+        "yichenc@princeton.edu",
+        "yinyu-ye@stanford.edu",
+        "mengdiw@princeton.edu"
+    ],
+    "id": "17-373",
+    "issue": 116,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Approximation Hardness for A Class of Sparse Optimization Problems",
+    "volume": 20,
+    "year": 2019
+}

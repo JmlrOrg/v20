@@ -1,0 +1,20 @@
+{
+    "abstract": "Ensemble methods are a powerful tool, often outperforming individual prediction models. Existing Bayesian ensembles either do not model the correlations between sources, or they are only capable of combining non-probabilistic predictions. We propose a new model, which overcomes these disadvantages. Transforming the probabilistic predictions with the inverse additive logistic transformation allows us to model the correlations with multivariate normal mixtures. We derive an efficient Gibbs sampler for the proposed model and implement a regularization method to make it more robust. We compare our method to related work and the classical linear opinion pool. Empirical evaluation on several toy and real-world data sets, including a case study on air-pollution forecasting, shows that the method outperforms other methods, while being robust and easy to use.",
+    "authors": [
+        "Gregor Pirs}",
+        "Erik Strumbelj"
+    ],
+    "emails": [
+        "gregor.pirs@fri.uni-lj.si",
+        "erik.strumbelj@fri.uni-lj.si"
+    ],
+    "id": "18-241",
+    "issue": 129,
+    "pages": [
+        1,
+        18
+    ],
+    "title": "Bayesian Combination of Probabilistic Classifiers using Multivariate Normal Mixtures",
+    "volume": 20,
+    "year": 2019
+}

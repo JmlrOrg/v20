@@ -1,0 +1,20 @@
+{
+    "abstract": "We present a novel minibatch stochastic optimization method for empirical risk minimization of linear predictors. The method efficiently leverages both sub-sampled first-order and higher-order information, by incorporating variance-reduction and acceleration techniques. We prove improved iteration complexity over state-of-the-art methods under suitable conditions. In particular, the approach enjoys global fast convergence for quadratic convex objectives and local fast convergence for general convex objectives.  Experiments are provided to demonstrate the empirical advantage of the proposed method over existing approaches in the literature.",
+    "authors": [
+        "Jialei Wang",
+        "Tong Zhang"
+    ],
+    "emails": [
+        "jialei@cs.uchicago.edu",
+        "tongzhang@tongzhang-ml.org"
+    ],
+    "id": "17-594",
+    "issue": 120,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Utilizing Second Order Information in Minibatch Stochastic Variance Reduced Proximal Iterations",
+    "volume": 20,
+    "year": 2019
+}

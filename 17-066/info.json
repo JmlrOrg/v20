@@ -1,0 +1,22 @@
+{
+    "abstract": "Semantic data mining (SDM) is a form of relational data mining that uses annotated data together with complex semantic background knowledge to learn rules that can be easily interpreted. The drawback of SDM is a high computational complexity of existing SDM algorithms, resulting in long run times even when applied to relatively small data sets. This paper proposes an effective SDM approach, named NetSDM, which first transforms the available semantic background knowledge into a network format, followed by network analysis based node ranking and pruning to significantly reduce the size of the original background knowledge. The experimental evaluation of the NetSDM methodology on acute lymphoblastic leukemia and breast cancer data demonstrates that NetSDM achieves radical time efficiency improvements and that learned rules are comparable or better than the rules obtained by the original SDM algorithms.",
+    "authors": [
+        "Jan Kralj",
+        "Marko Robnik-Sikonja",
+        "Nada Lavrac"
+    ],
+    "emails": [
+        "jan.kralj@ijs.si",
+        "marko.robnik@fri.uni-lj.si",
+        "nada.lavrac@ijs.si"
+    ],
+    "id": "17-066",
+    "issue": 110,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "NetSDM: Semantic Data Mining with Network Analysis",
+    "volume": 20,
+    "year": 2019
+}
