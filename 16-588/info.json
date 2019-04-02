@@ -1,7 +1,7 @@
 {
     "abstract": "In this paper we propose a modified version of the simulated annealing algorithm for solving a stochastic global optimization problem. More precisely, we address the problem of finding a global minimizer of a function with noisy evaluations. We provide a rate of convergence and its optimized parametrization to ensure a minimal number of evaluations for a given accuracy and a confidence level close to 1. This work is completed with a set of numerical experimentations and assesses the practical performance both on benchmark test cases and on real world examples.",
     "authors": [
-        "Cl\\'{e}ment Bouttier",
+        "Cl{{\\'e}}ment Bouttier",
         "Ioana Gavra"
     ],
     "emails": [
