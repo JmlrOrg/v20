@@ -26,5 +26,10 @@
     ],
     "title": "Picasso: A Sparse Learning Library for High Dimensional Data Analysis in R and Python",
     "volume": 20,
-    "year": 2019
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/jasonge27/picasso"],
+        ["webpage", "https://jasonge27.github.io/picasso/"]
+      ],
+    "special_issue": "MLOSS"
 }
