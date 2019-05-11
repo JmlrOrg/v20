@@ -1,0 +1,26 @@
+{
+    "abstract": "We show that prediction performance for global-local shrinkage regression can overcome two major difficulties of global shrinkage regression: (i) the amount of relative shrinkage is monotone in the singular values of the design matrix and (ii) the shrinkage is determined by a single tuning parameter. Specifically, we show that the horseshoe regression, with heavy-tailed component-specific local shrinkage parameters, in conjunction with a global parameter providing shrinkage towards zero, alleviates both these difficulties and consequently, results in an improved risk for prediction. Numerical demonstrations of improved prediction over competing approaches in simulations and in a pharmacogenomics data set confirm our theoretical findings.",
+    "authors": [
+        "Anindya Bhadra",
+        "Jyotishka Datta",
+        "Yunfan Li",
+        "Nicholas G. Polson",
+        "Brandon Willard"
+    ],
+    "emails": [
+        "bhadra@purdue.edu",
+        "jd033@uark.edu",
+        "li896@purdue.edu",
+        "ngp@chicagobooth.edu",
+        "brandonwillard@gmail.com"
+    ],
+    "id": "18-321",
+    "issue": 78,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Prediction Risk for the Horseshoe Regression",
+    "volume": 20,
+    "year": 2019
+}

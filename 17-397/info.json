@@ -1,0 +1,20 @@
+{
+    "abstract": "The higher order singular value decomposition (HOSVD) of tensors is a generalization of matrix SVD. The perturbation analysis of HOSVD under random noise is more delicate than its matrix counterpart. Recently, polynomial time algorithms have been proposed where statistically optimal estimates of the singular subspaces and the low rank tensors are attainable in the Euclidean norm. In this article, we analyze the sup-norm perturbation bounds of HOSVD and introduce estimators of the singular subspaces with sharp deviation bounds in the sup-norm. We also investigate a low rank tensor denoising estimator and demonstrate its fast convergence rate with respect to the entry-wise errors. The sup-norm perturbation bounds reveal unconventional phase transitions for statistical learning applications such as the exact clustering in high dimensional Gaussian mixture model and the exact support recovery in sub-tensor localizations. In addition, the bounds established for HOSVD also elaborate the one-sided sup-norm perturbation bounds for the singular subspaces of unbalanced (or fat) matrices.",
+    "authors": [
+        "Dong Xia",
+        "Fan Zhou"
+    ],
+    "emails": [
+        "madxia@ust.hk",
+        "fzhou40@math.gatech.edu"
+    ],
+    "id": "17-397",
+    "issue": 61,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "The Sup-norm Perturbation of HOSVD and Low Rank Tensor Denoising",
+    "volume": 20,
+    "year": 2019
+}

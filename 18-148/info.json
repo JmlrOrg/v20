@@ -1,0 +1,24 @@
+{
+    "abstract": "Performance of distributed optimization and learning systems is bottlenecked by ``straggler'' nodes and slow communication links, which significantly delay computation. We propose a distributed optimization framework where the dataset is ``encoded'' to have an over-complete representation with built-in redundancy, and the straggling nodes in the system are dynamically treated as missing, or as ``erasures'' at every iteration, whose loss is compensated by the embedded redundancy. For quadratic loss functions, we show that under a simple encoding scheme, many optimization algorithms (gradient descent, L-BFGS, and proximal gradient) operating under data parallelism converge to an approximate solution even when stragglers are ignored. Furthermore, we show a similar result for a wider class of convex loss functions when operating under model parallelism. The applicable classes of objectives covers several popular learning problems such as linear regression, LASSO, support vector machine, collaborative filtering, and generalized linear models including logistic regression. These convergence results are deterministic, i.e., they establish sample path convergence for arbitrary sequences of delay patterns or distributions on the nodes, and are independent of the tail behavior of the delay distribution. We demonstrate that equiangular tight frames have desirable properties as encoding matrices, and propose efficient mechanisms for encoding large-scale data. We implement the proposed technique on Amazon EC2 clusters, and demonstrate its performance over several learning problems, including matrix factorization, LASSO, ridge regression and logistic regression, and compare the proposed method with uncoded, asynchronous, and data replication strategies.",
+    "authors": [
+        "Can Karakus",
+        "Yifan Sun",
+        "Suhas Diggavi",
+        "Wotao Yin"
+    ],
+    "emails": [
+        "cakarak@amazon.com",
+        "ysun13@cs.ubc.ca",
+        "suhas@ee.ucla.edu",
+        "wotaoyin@math.ucla.edu"
+    ],
+    "id": "18-148",
+    "issue": 72,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Redundancy Techniques for Straggler Mitigation in Distributed Optimization and Learning",
+    "volume": 20,
+    "year": 2019
+}

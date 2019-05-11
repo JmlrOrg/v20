@@ -1,0 +1,40 @@
+{
+    "abstract": "We study the performance of kernel methods on the acoustic modeling task for automatic speech recognition, and compare their performance to deep neural networks (DNNs). To scale the kernel methods to large data sets, we use the random Fourier feature method of Rahimi and Recht (2007). We propose two novel techniques for improving the performance of kernel acoustic models. First, we propose a simple but effective feature selection method which reduces the number of random features required to attain a fixed level of performance. Second, we present a number of metrics which correlate strongly with speech recognition performance when computed on the heldout set; we attain improved performance by using these metrics to decide when to stop training. Additionally, we show that the linear bottleneck method of Sainath et al. (2013a) improves the performance of our kernel models significantly, in addition to speeding up training and making the models more compact. Leveraging these three methods, the kernel methods attain token error rates between $0.5\\%$ better and $0.1\\%$ worse than fully-connected DNNs across four speech recognition data sets, including the TIMIT and Broadcast News benchmark tasks.",
+    "authors": [
+        "Avner May",
+        "Alireza Bagheri Garakani",
+        "Zhiyun Lu",
+        "Dong Guo",
+        "Kuan Liu",
+        "Aurélien Bellet",
+        "Linxi Fan",
+        "Michael Collins",
+        "Daniel Hsu",
+        "Brian Kingsbury",
+        "Michael Picheny",
+        "Fei Sha"
+    ],
+    "emails": [
+        "avnermay@cs.stanford.edu",
+        "bagherig@usc.edu",
+        "zhiyunlu@usc.edu",
+        "dongguo@usc.edu",
+        "liukuan@google.com",
+        "aurelien.bellet@inria.fr",
+        "jimfan@cs.stanford.edu",
+        "mcollins@cs.columbia.edu",
+        "djhsu@cs.columbia.edu",
+        "bedk@us.ibm.com",
+        "picheny@us.ibm.com",
+        "feisha@usc.edu"
+    ],
+    "id": "17-026",
+    "issue": 59,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Kernel Approximation Methods for Speech Recognition",
+    "volume": 20,
+    "year": 2019
+}

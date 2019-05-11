@@ -1,0 +1,34 @@
+{
+    "abstract": "SMART is an open source web application designed to help data scientists and research teams efficiently build labeled training data sets for supervised machine learning tasks. SMART provides users with an intuitive interface for creating labeled data sets, supports active learning to help reduce the required amount of labeled data, and incorporates inter-rater reliability statistics to provide insight into label quality. SMART is designed to be platform agnostic and easily deployable to meet the needs of as many different research teams as possible. The project website https://rtiinternational.github.io/SMART/ contains links to the code repository and extensive user documentation.",
+    "authors": [
+        "Rob Chew",
+        "Michael Wenger",
+        "Caroline Kery",
+        "Jason Nance",
+        "Keith Richards",
+        "Emily Hadley",
+        "Peter Baumgartner"
+    ],
+    "emails": [
+        "rchew@rti.org",
+        "mwenger@rti.org",
+        "ckery1@umbc.edu",
+        "jnance@rti.org",
+        "dkrichards@rti.org",
+        "ehadley@rti.org",
+        "pbaumgartner@rti.org"
+    ],
+    "id": "18-859",
+    "issue": 82,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "SMART: An Open Source Data Labeling Platform for Supervised Learning",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://rtiinternational.github.io/SMART/"]
+    ],
+    "special_issue": "MLOSS"
+}

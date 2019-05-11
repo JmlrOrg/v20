@@ -1,0 +1,22 @@
+{
+    "abstract": "In this paper, we provide new insights on the Unadjusted Langevin Algorithm. We show that this method can be formulated as the first order optimization algorithm for an objective functional defined on the Wasserstein space of order $2$. Using this interpretation and techniques borrowed from convex optimization, we give a non-asymptotic analysis of this method to sample from log-concave smooth target distribution on $\\mathbb{R}^d$. Based on this interpretation, we propose two new methods for sampling from a non-smooth target distribution. These new algorithms are natural extensions of the Stochastic Gradient Langevin Dynamics (SGLD) algorithm, which is a popular extension of the Unadjusted Langevin Algorithm for largescale Bayesian inference. Using the optimization perspective, we provide non-asymptotic convergence analysis for the newly proposed methods.",
+    "authors": [
+        "Alain Durmus",
+        "Szymon Majewski",
+        "Błażej Miasojedow"
+    ],
+    "emails": [
+        "alain.durmus@cmla.ens-cachan.fr",
+        "smajewski@impan.pl",
+        "iasojedow@mimuw.edu.pl"
+    ],
+    "id": "18-173",
+    "issue": 73,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Analysis of Langevin Monte Carlo via Convex Optimization",
+    "volume": 20,
+    "year": 2019
+}

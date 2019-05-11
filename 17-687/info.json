@@ -1,0 +1,22 @@
+{
+    "abstract": "Proximal distance algorithms combine the classical penalty method of constrained minimization with distance majorization. If $f(x)$ is the loss function, and $C$ is the constraint set in a constrained minimization problem, then the proximal distance principle mandates minimizing the penalized loss $f(x)+\\frac{\\rho}{2}dist(x,C)^2$ and following the solution $x_{\\rho}$ to its limit as $\\rho$ tends to $\\infty$. At each iteration the squared Euclidean distance $dist(x,C)^2$ is majorized by the spherical quadratic $\\|x-P_C(x_k)\\|^2$, where $P_C(x_k)$ denotes the projection of the current iterate $x_k$ onto $C$. The minimum of the surrogate function $f(x)+\\frac{\\rho}{2}\\|x-P_C(x_k)\\|^2$ is given by the proximal map $prox_{\\rho^{-1}f}[P_C(x_k)]$. The next iterate $x_{k+1}$ automatically decreases the original penalized loss for fixed $\\rho$. Since many explicit projections and proximal maps are known, it is straightforward to derive and implement novel optimization algorithms in this setting. These algorithms can take hundreds if not thousands of iterations to converge, but the simple nature of each iteration makes proximal distance algorithms competitive with traditional algorithms. For convex problems, proximal distance algorithms reduce to proximal gradient algorithms and therefore enjoy well understood convergence properties. For nonconvex problems, one can attack convergence by invoking Zangwill's theorem. Our numerical examples demonstrate the utility of proximal distance algorithms in various high-dimensional settings, including a) linear programming, b) constrained least squares, c) projection to the closest kinship matrix, d) projection onto a second-order cone constraint, e) calculation of Horn's copositive matrix index, f) linear complementarity programming, and g) sparse principal components analysis. The proximal distance algorithm in each case is competitive or superior in speed to traditional methods such as the interior point method and the alternating direction method of multipliers (ADMM). Source code for the numerical examples can be found at https://github.com/klkeys/proxdist.",
+    "authors": [
+        "Kevin L. Keys",
+        "Hua Zhou",
+        "Kenneth Lange"
+    ],
+    "emails": [
+        "kevin.keys@ucsf.edu",
+        "huazhou@ucla.edu",
+        "klange@ucla.edu"
+    ],
+    "id": "17-687",
+    "issue": 66,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Proximal Distance Algorithms: Theory and Practice",
+    "volume": 20,
+    "year": 2019
+}

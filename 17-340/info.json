@@ -1,0 +1,24 @@
+{
+    "abstract": "In nonparametric regression, the derivative estimation has attracted much attention in recent years due to its wide applications. In this paper, we propose a new method for the derivative estimation using the locally weighted least absolute deviation regression. Different from the local polynomial regression, the proposed method does not require a finite variance for the error term and so is robust to the presence of heavy-tailed errors. Meanwhile, it does not require a zero median or a positive density at zero for the error term in comparison with the local median regression. We further show that the proposed estimator with random difference is asymptotically equivalent to the (infinitely) composite quantile regression estimator. In other words, running one regression is equivalent to combining infinitely many quantile regressions. In addition, the proposed method is also extended to estimate the derivatives at the boundaries and to estimate higher-order derivatives. For the equidistant design, we derive theoretical results for the proposed estimators, including the asymptotic bias and variance, consistency, and asymptotic normality. Finally, we conduct simulation studies to demonstrate that the proposed method has better performance than the existing methods in the presence of outliers and heavy-tailed errors, and analyze the Chinese house price data for the past ten years to illustrate the usefulness of the proposed method.",
+    "authors": [
+        "WenWu Wang",
+        "Ping Yu",
+        "Lu Lin",
+        "Tiejun Tong"
+    ],
+    "emails": [
+        "wengewsh@sina.com",
+        "pingyu@hku.hk",
+        "linlu@sdu.edu.cn",
+        "tongt@hkbu.edu.hk"
+    ],
+    "id": "17-340",
+    "issue": 60,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Robust Estimation of Derivatives Using Locally Weighted Least Absolute Deviation Regression",
+    "volume": 20,
+    "year": 2019
+}

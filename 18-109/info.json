@@ -1,0 +1,20 @@
+{
+    "abstract": "An approximate method for conducting resampling in Lasso, the $\\ell_1$ penalized linear regression, in a semi-analytic manner is developed, whereby the average over the resampled datasets is directly computed without repeated numerical sampling, thus enabling an inference free of the statistical fluctuations due to sampling finiteness, as well as a significant reduction of computational time. The proposed method is based on a message passing type algorithm, and its fast convergence is guaranteed by the state evolution analysis, when covariates are provided as zero-mean independently and identically distributed Gaussian random variables. It is employed to implement bootstrapped Lasso (Bolasso) and stability selection, both of which are variable selection methods using resampling in conjunction with Lasso, and resolves their disadvantage regarding computational cost. To examine approximation accuracy and efficiency, numerical experiments were carried out using simulated datasets. Moreover, an application to a real-world dataset, the wine quality dataset, is presented. To process such real-world datasets, an objective criterion for determining the relevance of selected variables is also introduced by the addition of noise variables and resampling. MATLAB codes implementing the proposed method are distributed in (Obuchi, 2018).",
+    "authors": [
+        "Tomoyuki Obuchi",
+        "Yoshiyuki Kabashima"
+    ],
+    "emails": [
+        "obuchi@c.titech.ac.jp",
+        "kaba@c.titech.ac.jp"
+    ],
+    "id": "18-109",
+    "issue": 70,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Semi-Analytic Resampling in Lasso",
+    "volume": 20,
+    "year": 2019
+}

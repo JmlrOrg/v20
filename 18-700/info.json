@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose a unified data-driven framework based on inverse optimal transport that can learn adaptive, nonlinear interaction cost function from noisy and incomplete empirical matching matrix and predict new matching in various matching contexts. We emphasize that the discrete optimal transport plays the role of a variational principle which gives rise to an optimization based framework for modeling the observed empirical matching data. Our formulation leads to a non-convex optimization problem which can be solved efficiently by an alternating optimization method. A key novel aspect of our formulation is the incorporation of marginal relaxation via regularized Wasserstein distance, significantly improving the robustness of the method in the face of noisy or missing empirical matching data. Our model falls into the category of prescriptive models, which not only predict potential future matching, but is also able to explain what leads to empirical matching and quantifies the impact of changes in matching factors. The proposed approach has wide applicability including predicting matching in online dating, labor market, college application and crowdsourcing. We back up our claims with numerical experiments on both synthetic data and real world data sets.",
+    "authors": [
+        "Ruilin Li",
+        "Xiaojing Ye",
+        "Haomin Zhou",
+        "Hongyuan Zha"
+    ],
+    "emails": [
+        "ruilin.li@gatech.edu",
+        "xye@gsu.edu",
+        "hmzhou@math.gatech.edu",
+        "zha@cc.gatech.edu"
+    ],
+    "id": "18-700",
+    "issue": 80,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Learning to Match via Inverse Optimal Transport",
+    "volume": 20,
+    "year": 2019
+}

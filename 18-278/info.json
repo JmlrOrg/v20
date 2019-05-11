@@ -1,0 +1,22 @@
+{
+    "abstract": "A common challenge in estimating parameters of probability density functions is the intractability of the normalizing constant. While in such cases maximum likelihood estimation may be implemented using numerical integration, the approach becomes computationally intensive. The score matching method of Hyvärinen (2005) avoids direct calculation of the normalizing constant and yields closed-form estimates for exponential families of continuous distributions over $\\mathbb{R}^m$. Hyvärinen (2007) extended the approach to distributions supported on the non-negative orthant, $\\mathbb{R}_+^m$. In this paper, we give a generalized form of score matching for non-negative data that improves estimation efficiency. As an example, we consider a general class of pairwise interaction models. Addressing an overlooked inexistence problem, we generalize the regularized score matching method of Lin et al. (2016) and improve its theoretical guarantees for non-negative Gaussian graphical models.",
+    "authors": [
+        "Shiqing Yu",
+        "Mathias Drton",
+        "Ali Shojaie"
+    ],
+    "emails": [
+        "sqyu@uw.edu",
+        "md5@uw.edu",
+        "ashojaie@uw.edu"
+    ],
+    "id": "18-278",
+    "issue": 76,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "Generalized Score Matching for Non-Negative Data",
+    "volume": 20,
+    "year": 2019
+}

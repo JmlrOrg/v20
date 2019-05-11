@@ -1,0 +1,22 @@
+{
+    "abstract": "Evaluating the joint significance of covariates is of fundamental importance in a wide range of applications. To this end, p-values are frequently employed and produced by algorithms that are powered by classical large-sample asymptotic theory. It is well known that the conventional p-values in Gaussian linear model are valid even when the dimensionality is a non-vanishing fraction of the sample size, but can break down when the design matrix becomes singular in higher dimensions or when the error distribution deviates from Gaussianity. A natural question is when the conventional p-values in generalized linear models become invalid in diverging dimensions. We establish that such a breakdown can occur early in nonlinear models. Our theoretical characterizations are confirmed by simulation studies.",
+    "authors": [
+        "Yingying Fan",
+        "Emre Demirkaya",
+        "Jinchi Lv"
+    ],
+    "emails": [
+        "fanyingy@marshall.usc.edu",
+        "demirkay@usc.edu",
+        "jinchilv@marshall.usc.edu"
+    ],
+    "id": "18-314",
+    "issue": 77,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Nonuniformity of P-values Can Occur Early in Diverging Dimensions",
+    "volume": 20,
+    "year": 2019
+}

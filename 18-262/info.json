@@ -1,0 +1,24 @@
+{
+    "abstract": "Algorithmic decision making is employed in an increasing number of real-world applicationstions to aid human decision making. While it has shown considerable promise in terms of improved decision accuracy, in some scenarios, its outcomes have been also shown to impose an unfair (dis)advantage on people from certain social groups (e.g., women, blacks). In this context, there is a need for computational techniques to limit unfairness in algorithmic decision making. In this work, we take a step forward to fulfill that need and introduce a flexible constraint-based framework to enable the design of fair margin-based classifiers. The main technical innovation of our framework is a general and intuitive measure of decision boundary unfairness, which serves as a tractable proxy to several of the most popular computational definitions of unfairness from the literature. Leveraging our measure, we can reduce the design of fair margin-based classifiers to adding tractable constraints on their decision boundaries. Experiments on multiple synthetic and real-world datasets show that our framework is able to successfully limit unfairness, often at a small cost in terms of accuracy.",
+    "authors": [
+        "Muhammad Bilal Zafar",
+        "Isabel Valera",
+        "Manuel Gomez-Rodriguez",
+        "Krishna P. Gummadi"
+    ],
+    "emails": [
+        "mzafar@mpi-sws.org",
+        "isabel.valera@tue.mpg.de",
+        "manuelgr@mpi-sws.org",
+        "gummadi@mpi-sws.org"
+    ],
+    "id": "18-262",
+    "issue": 75,
+    "pages": [
+        1,
+        42
+    ],
+    "title": " Fairness Constraints: A Flexible Approach for Fair Classification ",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "State-of-the-art first- and second-order optimization methods are able to achieve either fast global linear convergence rates or quadratic convergence, but not both of them. In this work, we propose an interpolation between first- and second-order methods for regularized empirical risk minimization that exploits the problem structure to efficiently combine multiple update directions. Our method attains both optimal global linear convergence rate for first-order methods, and local quadratic convergence. Experimental results show that our method outperforms state-of-the-art first- and second-order optimization methods in terms of the number of data accesses, while is competitive in training time.",
+    "authors": [
+        "Po-Wei Wang",
+        "Ching-pei Lee",
+        "Chih-Jen Lin"
+    ],
+    "emails": [
+        "email{poweiw@cs.cmu.edu",
+        "email{ching-pei@cs.wisc.edu",
+        "email{cjlin@csie.ntu.edu.tw"
+    ],
+    "id": "16-309",
+    "issue": 58,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "The Common-directions Method for Regularized Empirical Risk Minimization",
+    "volume": 20,
+    "year": 2019
+}
