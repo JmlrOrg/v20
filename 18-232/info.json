@@ -2,7 +2,8 @@
     "abstract": "In this paper we develop a deep learning method for optimal stopping problems which directly learns the optimal stopping rule from Monte Carlo samples. As such, it is broadly applicable in situations where the underlying randomness can efficiently be simulated. We test the approach on three problems: the pricing of a Bermudan max-call option, the pricing of a callable multi barrier reverse convertible and the problem of optimally stopping a fractional Brownian motion. In all three cases it produces very accurate results in high-dimensional situations with short computing times.",
     "authors": [
         "Sebastian Becker",
-        "Patrick Cheridito"
+        "Patrick Cheridito",
+        "Arnulf Jentzen"
     ],
     "emails": [
         "sebastian.becker@zenai.ch",
