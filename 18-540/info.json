@@ -1,0 +1,40 @@
+{
+    "abstract": "In recent years, deep neural networks have revolutionized many application domains of machine learning and are key components of many critical decision or predictive processes. Therefore, it is crucial that domain specialists can understand and analyze actions and predictions, even of the most complex neural network architectures. Despite these arguments neural networks are often treated as black boxes. In the attempt to alleviate this shortcoming many analysis methods were proposed, yet the lack of reference implementations often makes a systematic comparison between the methods a major effort. The presented library innvestigate addresses this by providing a common interface and out-of-the-box implementation for many analysis methods, including the reference implementation for PatternNet and PatternAttribution as well as for LRP-methods. To demonstrate the versatility of innvestigate, we provide an analysis of image classifications for variety of state-of-the-art neural network architectures.",
+    "authors": [
+        "Maximilian Alber",
+        "Sebastian Lapuschkin",
+        "Philipp Seegerer",
+        "Miriam Hägele",
+        "Kristof T. Schütt",
+        "Grégoire Montavon",
+        "Wojciech Samek",
+        "Klaus-Robert Müller",
+        "Sven Dähne",
+        "Pieter-Jan Kindermans"
+    ],
+    "emails": [
+        "maximilian.alber@tu-berlin.de",
+        "sebastian.lapuschkin@hhi.fraunhofer.de",
+        "philipp.seegerer@tu-berlin.de",
+        "haegele@tu-berlin.de",
+        "kristof.schuett@tu-berlin.de",
+        "gregoire.montavon@tu-berlin.de",
+        "wojciech.samek@hhi.fraunhofer.de",
+        "klaus-robert.mueller@tu-berlin.de",
+        "sven.daehne@tu-berlin.de",
+        "p.kindermans@tu-berlin.de"
+    ],
+    "id": "18-540",
+    "issue": 93,
+    "pages": [
+        1,
+        8
+    ],
+    "title": "iNNvestigate Neural Networks!",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/albermax/innvestigate"]
+    ],
+    "special_issue": "MLOSS"
+}

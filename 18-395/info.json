@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper studies active learning in the context of robust statistics. Specifically, we propose a variant of the Best Arm Identification problem for contaminated bandits, where each arm pull has probability epsilon of generating a sample from an arbitrary contamination distribution instead of the true underlying distribution. The goal is to identify the best (or approximately best) true distribution with high probability, with a secondary goal of providing guarantees on the quality of this distribution. The primary challenge of the contaminated bandit setting is that the true distributions are only partially identifiable, even with infinite samples. To address this, we develop tight, non-asymptotic sample complexity bounds for high-probability estimation of the first two robust moments (median and median absolute deviation) from contaminated samples. These concentration inequalities are the main technical contributions of the paper and may be of independent interest. Using these results, we adapt several classical Best Arm Identification algorithms to the contaminated bandit setting and derive sample complexity upper bounds for our problem. Finally, we provide matching information-theoretic lower bounds on the sample complexity (up to a small logarithmic factor).",
+    "authors": [
+        "Jason Altschuler",
+        "Victor-Emmanuel Brunel",
+        "Alan Malek"
+    ],
+    "emails": [
+        "jasonalt@mit.edu",
+        "vebrunel@mit.edu",
+        "amalek@mit.edu"
+    ],
+    "id": "18-395",
+    "issue": 91,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Best Arm Identification for Contaminated Bandits",
+    "volume": 20,
+    "year": 2019
+}

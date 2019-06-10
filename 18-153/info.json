@@ -1,0 +1,20 @@
+{
+    "abstract": "Bayesian Non-negative Matrix Factorization (BNMF) is a promising approach for understanding uncertainty and structure in matrix data. However, a large volume of applied work optimizes traditional non-Bayesian NMF objectives that fail to provide a principled understanding of the non-identifiability inherent in NMF---an issue ideally addressed by a Bayesian approach. Despite their suitability, current BNMF approaches have failed to gain popularity in an applied setting; they sacrifice flexibility in modeling for tractable computation, tend to get stuck in local modes, and can require many thousands of samples for meaningful uncertainty estimates. We address these issues through a particle-based variational approach to BNMF that only requires the joint likelihood to be differentiable for computational tractability, uses a novel transfer-based initialization technique to identify multiple modes in the posterior, and thus allows domain experts to inspect a small set of factorizations that faithfully represent the posterior. On several real datasets, we obtain better particle approximations to the BNMF posterior in less time than baselines and demonstrate the significant role that multimodality plays in NMF-related tasks.",
+    "authors": [
+        "Muhammad A Masood",
+        "Finale Doshi-Velez"
+    ],
+    "emails": [
+        "masood@g.harvard.edu",
+        "finale@seas.harvard.edu"
+    ],
+    "id": "18-153",
+    "issue": 90,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "A Particle-Based Variational Approach to Bayesian Non-negative Matrix Factorization",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "We investigate the direct-sum problem in the context of differentially private PAC learning: What is the sample complexity of solving $k$ learning tasks simultaneously under differential privacy, and how does this cost compare to that of solving $k$ learning tasks without privacy? In our setting, an individual example consists of a domain element $x$ labeled by $k$ unknown concepts $(c_1,\\ldots,c_k)$. The goal of a multi-learner is to output $k$ hypotheses $(h_1,\\ldots,h_k)$ that generalize the input examples. Without concern for privacy, the sample complexity needed to simultaneously learn $k$ concepts is essentially the same as needed for learning a single concept. Under differential privacy, the basic strategy of learning each hypothesis independently yields sample complexity that grows polynomially with $k$. For some concept classes, we give multi-learners that require fewer samples than the basic strategy. Unfortunately, however, we also give lower bounds showing that even for very simple concept classes, the sample cost of private multi-learning must grow polynomially in $k$.",
+    "authors": [
+        "Mark Bun",
+        "Kobbi Nissim",
+        "Uri Stemmer"
+    ],
+    "emails": [
+        "mbun@bu.edu",
+        "kobbi.nissim@georgetown.edu",
+        "u@uri.co.il"
+    ],
+    "id": "18-549",
+    "issue": 94,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Simultaneous Private Learning of Multiple Concepts",
+    "volume": 20,
+    "year": 2019
+}

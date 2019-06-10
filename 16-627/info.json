@@ -1,0 +1,24 @@
+{
+    "abstract": "Linear subspace models are pervasive in computational sciences and particularly used for large datasets which are often incomplete due to privacy issues or sampling constraints. Therefore, a critical problem is developing an efficient algorithm for detecting low-dimensional linear structure from incomplete data efficiently, in terms of both computational complexity and storage. In this paper we propose a streaming subspace estimation algorithm called Subspace Navigation via Interpolation from Partial Entries (SNIPE) that efficiently processes blocks of incomplete data to estimate the underlying subspace model. In every iteration, SNIPE finds the subspace that best fits the new data block but remains close to the previous estimate. We show that SNIPE is a streaming solver for the underlying nonconvex matrix completion problem, that it converges globally {to a stationary point of this program} regardless of initialization, and that the convergence is locally linear with high probability. We also find that SNIPE shows state-of-the-art performance in our numerical simulations.",
+    "authors": [
+        "Armin Eftekhari",
+        "Gregory Ongie",
+        "Laura Balzano",
+        "Michael B. Wakin"
+    ],
+    "emails": [
+        "armin.eftekhari@epfl.ch",
+        "gongie@uchicago.edu",
+        "girasole@umich.edu",
+        "mwakin@mines.edu"
+    ],
+    "id": "16-627",
+    "issue": 86,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Streaming Principal Component Analysis From Incomplete Data ",
+    "volume": 20,
+    "year": 2019
+}

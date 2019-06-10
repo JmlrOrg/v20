@@ -1,0 +1,20 @@
+{
+    "abstract": "In this paper, we develop a new approach to learning high-dimensional Poisson structural equation models from only observational data without strong assumptions such as faithfulness and a sparse moralized graph. A key component of our method is to decouple the ordering estimation or parent search where the problems can be efficiently addressed using $\\ell_1$-regularized regression and the moments relation. We show that sample size $n = \\Omega( d^{2} \\log^{9} p)$ is sufficient for our polynomial time Moments Ratio Scoring (MRS) algorithm to recover the true directed graph, where $p$ is the number of nodes and $d$ is the maximum indegree. We verify through simulations that our algorithm is statistically consistent in the high-dimensional $p>n$ setting, and performs well compared to state-of-the-art ODS, GES, and MMHC algorithms. We also demonstrate through multivariate real count data that our MRS algorithm is well-suited to estimating DAG models for multivariate count data in comparison to other methods used for discrete data.",
+    "authors": [
+        "Gunwoong Park",
+        "Sion Park"
+    ],
+    "emails": [
+        "gw.park23@gmail.com",
+        "rockgoat95@gmail.com"
+    ],
+    "id": "18-819",
+    "issue": 95,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "High-Dimensional Poisson Structural Equation Model Learning via $\\ell_1$-Regularized Regression",
+    "volume": 20,
+    "year": 2019
+}

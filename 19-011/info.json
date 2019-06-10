@@ -1,0 +1,26 @@
+{
+    "abstract": "PyOD is an open-source Python toolbox for performing scalable outlier detection on multivariate data. Uniquely, it provides access to a wide range of outlier detection algorithms, including established outlier ensembles and more recent neural network-based approaches, under a single, well-documented API designed for use by both practitioners and researchers. With robustness and scalability in mind, best practices such as unit testing, continuous integration, code coverage, maintainability checks, interactive examples and parallelization are emphasized as core components in the toolbox's development. PyOD is compatible with both Python 2 and 3 and can be installed through Python Package Index (PyPI) or https://github.com/yzhao062/pyod.",
+    "authors": [
+        "Yue Zhao",
+        "Zain Nasrullah",
+        "Zheng Li"
+    ],
+    "emails": [
+        "zhaoy@cmu.edu",
+        "znasrullah@cs.toronto.edu",
+        "jk_zhengli@hotmail.com"
+    ],
+    "id": "19-011",
+    "issue": 96,
+    "pages": [
+        1,
+        7
+    ],
+    "title": "PyOD: A Python Toolbox for Scalable Outlier Detection",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/yzhao062/pyod"]
+    ],
+    "special_issue": "MLOSS"
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "We derive an objective function that can be optimized to give an estimator for the Vapnik-Chervonenkis dimension for use in model selection in regression problems. We verify our estimator is consistent. Then, we verify it performs well compared to seven other model selection techniques. We do this for a variety of types of data sets.",
+    "authors": [
+        "Merlin Mpoudeu",
+        "Bertrand Clarke"
+    ],
+    "emails": [
+        "merlin.mpoudeu@huskers.unl.edu",
+        "bclarke3@unl.edu"
+    ],
+    "id": "17-669",
+    "issue": 88,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "Model Selection via the VC Dimension",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "A typical problem in spatial data analysis is regionalization or spatially constrained clustering, which consists of aggregating small geographical areas into larger regions. A major challenge when partitioning a map is the huge number of possible partitions that compose the search space. This is compounded if we are partitioning spatio-temporal data rather than purely spatial data. We introduce a spatio-temporal product partition model that deals with the regionalization problem in a probabilistic way. Random spanning trees are used as a tool to tackle the problem of searching the space of possible partitions making feasible this exploration. Based on this framework, we propose an efficient Gibbs sampler algorithm to sample from the posterior distribution of the parameters, specially the random partition. The proposed Gibbs sampler scheme carries out a random walk on the space of the spanning trees and the partitions induced by deleting tree edges. In the purely spatial situation, we compare our proposed model with other state-of-art regionalization techniques to partition maps using simulated and real social and health data. To illustrate how the temporal component is handled by the algorithm and to show how the spatial clusters vary along the time we presented an application using human development index data. The analysis shows that our proposed model is better than state-of-art alternatives. Another appealing feature of the method is that the prior distribution for the partition is interpretable with a trivial coin flipping mechanism allowing its easy elicitation.",
+    "authors": [
+        "Leonardo V. Teixeira",
+        "Renato M. Assunção",
+        "Rosangela H. Loschi"
+    ],
+    "emails": [
+        "lteixeir@purdue.edu",
+        "assuncao@dcc.ufmg.br",
+        "loschi@est.ufmg.br"
+    ],
+    "id": "16-615",
+    "issue": 85,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Bayesian Space-Time Partitioning by Sampling and Pruning Spanning Trees",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,28 @@
+{
+    "abstract": "AffectiveTweets is a set of programs for analyzing emotion and sentiment of social media messages such as tweets. It is implemented as a package for the Weka machine learning workbench and provides methods for calculating state-of-the-art affect analysis features from tweets that can be fed into machine learning algorithms implemented in Weka. It also implements methods for building affective lexicons and distant supervision methods for training affective models from unlabeled tweets. The package was used by several teams in the shared tasks: EmoInt 2017 and Affect in Tweets SemEval 2018 Task 1.",
+    "authors": [
+        "Felipe Bravo-Marquez",
+        "Eibe Frank",
+        "Bernhard Pfahringer",
+        "Saif M. Mohammad"
+    ],
+    "emails": [
+        "fbravo@dcc.uchile.cl",
+        "eibe@waikato.ac.nz",
+        "bernhard@waikato.ac.nz",
+        "saif.mohammad@nrc-cnrc.gc.ca"
+    ],
+    "id": "18-450",
+    "issue": 92,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "AffectiveTweets: a Weka Package for Analyzing Affect in Tweets",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/felipebravom/AffectiveTweets"]
+    ],
+    "special_issue": "MLOSS"
+}
