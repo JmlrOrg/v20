@@ -1,7 +1,7 @@
 {
     "abstract": "We investigate and compare the fundamental performance of several distributed learning methods that have been proposed recently. We do this in the context of a distributed version of the classical signal-in-Gaussian-white-noise model, which serves as a benchmark model for studying performance in this setting. The results show how the design and tuning of a distributed method can have great impact on convergence rates and validity of uncertainty quantification. Moreover, we highlight the difficulty of designing nonparametric distributed procedures that automatically adapt to smoothness.",
     "authors": [
-        "Botond Szabó",
+        "Botond Szab{{\\'o}}",
         "Harry van Zanten"
     ],
     "emails": [

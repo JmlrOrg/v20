@@ -2,7 +2,7 @@
     "abstract": "In this paper, we study the behavior of the Hedge algorithm in the online stochastic setting. We prove that anytime Hedge with decreasing learning rate, which is one of the simplest algorithm for the problem of prediction with expert advice, is remarkably both worst-case optimal and adaptive to the easier stochastic and adversarial with a gap problems. This shows that, in spite of its small, non-adaptive learning rate, Hedge possesses the same optimal regret guarantee in the stochastic case as recently introduced adaptive algorithms. Moreover, our analysis exhibits qualitative differences with other versions of the Hedge algorithm, such as the fixed-horizon variant (with constant learning rate) and the one based on the so-called ``doubling trick'', both of which fail to adapt to the easier stochastic setting. Finally, we determine the intrinsic limitations of anytime Hedge in the stochastic case, and discuss the improvements provided by more adaptive algorithms.",
     "authors": [
         "Jaouad Mourtada",
-        "Stéphane Gaïffas"
+        "St{{\\'e}}phane Ga{{\\\"i}}ffas"
     ],
     "emails": [
         "jaouad.mourtada@polytechnique.edu",

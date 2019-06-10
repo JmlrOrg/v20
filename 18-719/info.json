@@ -1,7 +1,7 @@
 {
     "abstract": "The VC-dimension of a set system is a way to capture its complexity and has been a key parameter studied extensively in machine learning and geometry communities. In this paper, we resolve two longstanding open problems on bounding the VC-dimension of two fundamental set systems: $k$-fold unions/intersections of half-spaces and the simplices set system. Among other implications, it settles an open question in machine learning that was first studied in the foundational paper of Blumer et al. (1989) as well as by Eisenstat and Angluin (2007) and Johnson (2008).",
     "authors": [
-        "Mónika Csikós",
+        "M{{\\'o}}nika Csik{{\\'o}}s",
         "Nabil H. Mustafa",
         "Andrey Kupavskii"
     ],

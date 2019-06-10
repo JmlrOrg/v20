@@ -1,7 +1,7 @@
 {
     "abstract": "The multi-armed restless bandit problem is studied in the case where the pay-off distributions are stationary $\\varphi$-mixing. This version of the problem provides a more realistic model for most real-world applications, but cannot be optimally solved in practice, since it is known to be PSPACE-hard. The objective of this paper is to characterize a sub-class of the problem where good approximate solutions can be found using tractable approaches. Specifically, it is shown that under some conditions on the $\\varphi$-mixing coefficients, a modified version of UCB can prove effective. The main challenge is that, unlike in the i.i.d. setting, the distributions of the sampled pay-offs may not have the same characteristics as those of the original bandit arms. In particular, the $\\varphi$-mixing property does not necessarily carry over. This is overcome by carefully controlling the effect of a sampling policy on the pay-off distributions. Some of the proof techniques developed in this paper can be more generally used in the context of online sampling under dependence. Proposed algorithms are accompanied with corresponding regret analysis.",
     "authors": [
-        "Steffen Grünewälder",
+        "Steffen Gr{{\\\"u}}new{{\\\"a}}lder",
         "Azadeh Khaleghi"
     ],
     "emails": [

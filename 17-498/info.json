@@ -1,7 +1,7 @@
 {
     "abstract": "We consider revenue maximization in online auction/pricing problems. A seller sells an identical item in each period to a new buyer, or a new set of buyers. For the online pricing problem, both when the arriving buyer bids or only responds to the posted price, we design algorithms whose regret bounds scale with the best fixed price in-hindsight, rather than the range of the values. Under the bidding model, we further show our algorithms achieve a revenue convergence rate that matches the offline sample complexity of the single-item single-buyer auction. We also show regret bounds that are scale free, and match the offline sample complexity, when comparing to a benchmark that requires a lower bound on the market share. We further expand our results beyond pricing to multi-buyer auctions, and obtain online learning algorithms for auctions, with convergence rates matching the known sample complexity upper bound of online single-item multi-buyer auctions. These results are obtained by generalizing the classical learning from experts and multi-armed bandit problems to their multi-scale versions. In this version, the reward of each action is in a different range, and the regret with respect to a given action scales with its own range, rather than the maximum range. We obtain almost optimal multi-scale regret bounds by introducing a new Online Mirror Descent (OMD) algorithm whose mirror map is the multi-scale version of the negative entropy function. We further generalize to the bandit setting by introducing the stochastic variant of this OMD algorithm.",
     "authors": [
-        "Sébastien Bubeck",
+        "S{{\\'e}}bastien Bubeck",
         "Nikhil R. Devanur",
         "Zhiyi Huang",
         "Rad Niazadeh"
