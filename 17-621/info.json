@@ -2,8 +2,8 @@
     "abstract": "In this paper we provide a finite-sample and an infinite-sample representer theorem for the concatenation of (linear combinations of) kernel functions of reproducing kernel Hilbert spaces. These results serve as mathematical foundation for the analysis of machine learning algorithms based on compositions of functions. As a direct consequence in the finite-sample case, the corresponding infinite-dimensional minimization problems can be recast into (nonlinear) finite-dimensional minimization problems, which can be tackled with nonlinear optimization algorithms. Moreover, we show how concatenated machine learning problems can be reformulated as neural networks and how our representer theorem applies to a broad class of state-of-the-art deep learning methods.",
     "authors": [
         "Bastian Bohn",
-        "Christian Rieger",
-        "Michael Griebel"
+        "Michael Griebel",
+        "Christian Rieger"
     ],
     "emails": [
         "bohn@ins.uni-bonn.de",
