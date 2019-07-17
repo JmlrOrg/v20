@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the problem of efficiently approximating and encoding high-dimensional data sampled from a probability distribution $\\rho$ in $\\mathbb{R}^D$, that is nearly supported on a $d$-dimensional set $\\mathcal{M}$ - for example supported on a $d$-dimensional manifold. Geometric Multi-Resolution Analysis (GMRA) provides a robust and computationally efficient procedure to construct low-dimensional geometric approximations of $\\mathcal{M}$ at varying resolutions. We introduce GMRA approximations that adapt to the unknown regularity of $\\mathcal{M}$, by introducing a thresholding algorithm on the geometric wavelet coefficients. We show that these data-driven, empirical geometric approximations perform well, when the threshold is chosen as a suitable universal function of the number of samples $n$, on a large class of measures $\\rho$, that are allowed to exhibit different regularity at different scales and locations, thereby efficiently encoding data from more complex measures than those supported on manifolds. These GMRA approximations are associated to a dictionary, together with a fast transform mapping data to $d$-dimensional coefficients, and an inverse of such a map, all of which are data-driven. The algorithms for both the dictionary construction and the transforms have complexity $C D n \\log n$ with the constant $C$ exponential in $d$. Our work therefore establishes Adaptive GMRA as a fast dictionary learning algorithm, with approximation guarantees, for intrinsically low-dimensional data. We include several numerical experiments on both synthetic and real data, confirming our theoretical results and demonstrating the effectiveness of Adaptive GMRA.",
+    "authors": [
+        "Wenjing Liao",
+        "Mauro Maggioni"
+    ],
+    "emails": [
+        "wliao60@gatech.edu",
+        "mauromaggionijhu@icloud.com"
+    ],
+    "id": "17-252",
+    "issue": 98,
+    "pages": [
+        1,
+        63
+    ],
+    "title": "Adaptive Geometric Multiscale Approximations for Intrinsically Low-dimensional Data",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,24 @@
+{
+    "abstract": "Sparse reduced-rank regression is an important tool for uncovering meaningful dependence structure between large numbers of predictors and responses in many big data applications such as genome-wide association studies and social media analysis. Despite the recent theoretical and algorithmic advances, scalable estimation of sparse reduced-rank regression remains largely unexplored. In this paper, we suggest a scalable procedure called sequential estimation with eigen-decomposition (SEED) which needs only a single top-$r$ sparse singular value decomposition from a generalized eigenvalue problem to find the optimal low-rank and sparse matrix estimate. Our suggested method is not only scalable but also performs simultaneous dimensionality reduction and variable selection. Under some mild regularity conditions, we show that SEED enjoys nice sampling properties including consistency in estimation, rank selection, prediction, and model selection. Moreover, SEED employs only basic matrix operations that can be efficiently parallelized in high performance computing devices. Numerical studies on synthetic and real data sets show that SEED outperforms the state-of-the-art approaches for large-scale matrix estimation problem.",
+    "authors": [
+        "Zemin Zheng",
+        "M. Taha Bahadori",
+        "Yan Liu",
+        "Jinchi Lv"
+    ],
+    "emails": [
+        "zhengzm@ustc.edu.cn",
+        "bahadori@gatech.edu",
+        "yanliu.cs@usc.edu",
+        "jinchilv@marshall.usc.edu"
+    ],
+    "id": "18-200",
+    "issue": 107,
+    "pages": [
+        1,
+        34
+    ],
+    "title": " Scalable Interpretable Multi-Response Regression via SEED",
+    "volume": 20,
+    "year": 2019
+}

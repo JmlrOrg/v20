@@ -1,0 +1,22 @@
+{
+    "abstract": "Nonconvex matrix recovery is known to contain no spurious local minima under a restricted isometry property (RIP) with a sufficiently small RIP constant $\\delta$. If $\\delta$ is too large, however, then counterexamples containing spurious local minima are known to exist. In this paper, we introduce a proof technique that is capable of establishing sharp thresholds on $\\delta$ to guarantee the inexistence of spurious local minima. Using the technique, we prove that in the case of a rank-1 ground truth, an RIP constant of $\\delta<1/2$ is both necessary and sufficient for exact recovery from any arbitrary initial point (such as a random point). We also prove a local recovery result: given an initial point $x_{0}$ satisfying $f(x_{0})\\le(1-\\delta)^{2}f(0)$, any descent algorithm that converges to second-order optimality guarantees exact recovery.",
+    "authors": [
+        "Richard Y. Zhang",
+        "Somayeh Sojoudi",
+        "Javad Lavaei"
+    ],
+    "emails": [
+        "ryz@illinois.edu",
+        "sojoudi@berkeley.edu",
+        "lavaei@berkeley.edu"
+    ],
+    "id": "19-020",
+    "issue": 114,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Sharp Restricted Isometry Bounds for the Inexistence of Spurious Local Minima in Nonconvex Matrix Recovery",
+    "volume": 20,
+    "year": 2019
+}

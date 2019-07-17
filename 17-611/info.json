@@ -1,0 +1,26 @@
+{
+    "abstract": "This work studies the strong duality of non-convex matrix factorization problems: we show that under certain dual conditions, these problems and the dual have the same optimum. This has been well understood for convex optimization, but little was known for non-convex problems. We propose a novel analytical framework and prove that under certain dual conditions, the optimal solution of the matrix factorization program is the same as that of its bi-dual and thus the global optimality of the non-convex program can be achieved by solving its bi-dual which is convex. These dual conditions are satisfied by a wide class of matrix factorization problems, although matrix factorization is hard to solve in full generality. This analytical framework may be of independent interest to non-convex optimization more broadly. We apply our framework to two prototypical matrix factorization problems: matrix completion and robust Principal Component Analysis. These are examples of efficiently recovering a hidden matrix given limited reliable observations. Our framework shows that exact recoverability and strong duality hold with nearly-optimal sample complexity for the two problems.",
+    "authors": [
+        "Maria-Florina Balcan",
+        "Yingyu Liang",
+        "Zhao Song",
+        "David P. Woodruff",
+        "Hongyang Zhang"
+    ],
+    "emails": [
+        "ninamf@cs.cmu.edu",
+        "yliang@cs.wisc.edu",
+        "zhaos@g.harvard.edu",
+        "dwoodruf@cs.cmu.edu",
+        "hongyanz@cs.cmu.edu"
+    ],
+    "id": "17-611",
+    "issue": 102,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Non-Convex Matrix Completion and Related Problems via Strong Duality",
+    "volume": 20,
+    "year": 2019
+}

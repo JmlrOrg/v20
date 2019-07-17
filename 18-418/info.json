@@ -1,0 +1,18 @@
+{
+    "abstract": "We propose to optimize the activation functions of a deep neural network by adding a corresponding functional regularization to the cost function. We justify the use of a second-order total-variation criterion. This allows us to derive a general representer theorem for deep neural networks that makes a direct connection with splines and sparsity. Specifically, we show that the optimal network configuration can be achieved with activation functions that are nonuniform linear splines with adaptive knots. The bottom line is that the action of each neuron is encoded by a spline whose parameters (including the number of knots) are optimized during the training procedure. The scheme results in a computational structure that is compatible with existing deep-ReLU, parametric ReLU, APL (adaptive piecewise-linear) and MaxOut architectures. It also suggests novel optimization challenges and makes an explicit link with $\\ell_1$ minimization and sparsity-promoting techniques.",
+    "authors": [
+        "Michael Unser"
+    ],
+    "emails": [
+        "michael.unser@epfl.ch"
+    ],
+    "id": "18-418",
+    "issue": 110,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "A Representer Theorem for Deep Neural Networks",
+    "volume": 20,
+    "year": 2019
+}

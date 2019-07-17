@@ -1,0 +1,26 @@
+{
+    "abstract": "Hamiltonian Monte Carlo (HMC) samples efficiently from high-dimensional posterior distributions with proposed parameter draws obtained by iterating on a discretized version of the Hamiltonian dynamics. The iterations make HMC computationally costly, especially in problems with large data sets, since it is necessary to compute posterior densities and their derivatives with respect to the parameters. Naively computing the Hamiltonian dynamics on a subset of the data causes HMC to lose its key ability to generate distant parameter proposals with high acceptance probability. The key insight in our article is that efficient subsampling HMC for the parameters is possible if both the dynamics and the acceptance probability are computed from the same data subsample in each complete HMC iteration. We show that this is possible to do in a principled way in a HMC-within-Gibbs framework where the subsample is updated using a pseudo marginal MH step and the parameters are then updated using an HMC step, based on the current subsample. We show that our subsampling methods are fast and compare favorably to two popular sampling algorithms that use gradient estimates from data subsampling. We also explore the current limitations of subsampling HMC algorithms by varying the quality of the variance reducing control variates used in the estimators of the posterior density and its gradients.",
+    "authors": [
+        "Khue-Dung Dang",
+        "Matias Quiroz",
+        "Robert Kohn",
+        "Minh-Ngoc Tran",
+        "Mattias Villani"
+    ],
+    "emails": [
+        "doankhuedung.dang@unsw.edu.au",
+        "quiroz.matias@gmail.com",
+        "r.kohn@unsw.edu.au",
+        "minh-ngoc.tran@sydney.edu.au",
+        "mattias.villani@liu.se"
+    ],
+    "id": "17-452",
+    "issue": 100,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Hamiltonian Monte Carlo with Energy Conserving Subsampling",
+    "volume": 20,
+    "year": 2019
+}

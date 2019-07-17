@@ -1,0 +1,28 @@
+{
+    "abstract": "Recent hardware developments have dramatically increased the scale of data parallelism available for neural network training. Among the simplest ways to harness next-generation hardware is to increase the batch size in standard mini-batch neural network training algorithms. In this work, we aim to experimentally characterize the effects of increasing the batch size on training time, as measured by the number of steps necessary to reach a goal out-of-sample error. We study how this relationship varies with the training algorithm, model, and data set, and find extremely large variation between workloads. Along the way, we show that disagreements in the literature on how batch size affects model quality can largely be explained by differences in metaparameter tuning and compute budgets at different batch sizes. We find no evidence that larger batch sizes degrade out-of-sample performance. Finally, we discuss the implications of our results on efforts to train neural networks much faster in the future. Our experimental data is publicly available as a database of 71,638,836 loss measurements taken over the course of training for 168,160 individual models across 35 workloads.",
+    "authors": [
+        "Christopher J. Shallue",
+        "Jaehoon Lee",
+        "Joseph Antognini",
+        "Jascha Sohl-Dickstein",
+        "Roy Frostig",
+        "George E. Dahl"
+    ],
+    "emails": [
+        "shallue@google.com",
+        "jaehlee@google.com",
+        "joe.antognini@gmail.com",
+        "jaschasd@google.com",
+        "frostig@google.com",
+        "gdahl@google.com"
+    ],
+    "id": "18-789",
+    "issue": 112,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Measuring the Effects of Data Parallelism on Neural Network Training",
+    "volume": 20,
+    "year": 2019
+}

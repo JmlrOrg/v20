@@ -1,0 +1,24 @@
+{
+    "abstract": "The octagonal shrinkage and clustering algorithm for regression (OSCAR), equipped with the $\\ell_1$-norm and a pair-wise $\\ell_{\\infty}$-norm regularizer, is a useful tool for feature selection and grouping in high-dimensional data analysis. The computational challenge posed by OSCAR, for high dimensional and/or large sample size data, has not yet been well resolved due to the non-smoothness and non-separability of the regularizer involved. In this paper, we successfully resolve this numerical challenge by proposing a sparse semismooth Newton-based augmented Lagrangian method to solve the more general SLOPE (the sorted L-one penalized estimation) model. By appropriately exploiting the inherent sparse and low-rank property of the generalized Jacobian of the semismooth Newton system in the augmented Lagrangian subproblem, we show how the computational complexity can be substantially reduced. Our algorithm offers a notable computational advantage in the high-dimensional statistical regression settings. Numerical experiments are conducted on real data sets, and the results demonstrate that our algorithm is far superior, in both speed and robustness, to the existing state-of-the-art algorithms based on first-order iterative schemes, including the widely used accelerated proximal gradient (APG) method and the alternating direction method of multipliers (ADMM).",
+    "authors": [
+        "Ziyan Luo",
+        "Defeng Sun",
+        "Kim-Chuan Toh",
+        "Naihua Xiu"
+    ],
+    "emails": [
+        "zyluo@bjtu.edu.cn",
+        "defeng.sun@polyu.edu.hk",
+        "mattohkc@nus.edu.sg",
+        "nhxiu@bjtu.edu.cn"
+    ],
+    "id": "18-172",
+    "issue": 106,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Solving the OSCAR and SLOPE Models Using a Semismooth Newton-Based Augmented Lagrangian Method",
+    "volume": 20,
+    "year": 2019
+}

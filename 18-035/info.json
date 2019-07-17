@@ -1,0 +1,18 @@
+{
+    "abstract": "The search space for the feature selection problem in decision tree learning is the lattice of subsets of the available features. We design an exact enumeration procedure of the subsets of features that lead to all and only the distinct decision trees built by a greedy top-down decision tree induction algorithm. The procedure stores, in the worst case, a number of trees linear in the number of features. By exploiting a further pruning of the search space, we design a complete procedure for finding $\\delta$-acceptable feature subsets, which depart by at most $\\delta$ from the best estimated error over any feature subset. Feature subsets with the best estimated error are called best feature subsets. Our results apply to any error estimator function, but experiments are mainly conducted under the wrapper model, in which the misclassification error over a search set is used as an estimator. The approach is also adapted to the design of a computational optimization of the sequential backward elimination heuristic, extending its applicability to large dimensional datasets. The procedures of this paper are implemented in a multi-core data parallel C++ system. We investigate experimentally the properties and limitations of the procedures on a collection of 20 benchmark datasets, showing that oversearching increases both overfitting and instability.",
+    "authors": [
+        "Salvatore Ruggieri"
+    ],
+    "emails": [
+        "salvatore.ruggieri@unipi.it"
+    ],
+    "id": "18-035",
+    "issue": 104,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Complete Search for Feature Selection in Decision Trees",
+    "volume": 20,
+    "year": 2019
+}

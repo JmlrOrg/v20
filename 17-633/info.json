@@ -1,0 +1,22 @@
+{
+    "abstract": "The goal of regression and classification methods in supervised learning is to minimize the empirical risk, that is, the expectation of some loss function quantifying the prediction error under the empirical distribution. When facing scarce training data, overfitting is typically mitigated by adding regularization terms to the objective that penalize hypothesis complexity. In this paper we introduce new regularization techniques using ideas from distributionally robust optimization, and we give new probabilistic interpretations to existing techniques. Specifically, we propose to minimize the worst-case expected loss, where the worst case is taken over the ball of all (continuous or discrete) distributions that have a bounded transportation distance from the (discrete) empirical distribution. By choosing the radius of this ball judiciously, we can guarantee that the worst-case expected loss provides an upper confidence bound on the loss on test data, thus offering new generalization bounds. We prove that the resulting regularized learning problems are tractable and can be tractably kernelized for many popular loss functions. The proposed approach to regluarization is also extended to neural networks. We validate our theoretical out-of-sample guarantees through simulated and empirical experiments.",
+    "authors": [
+        "Soroosh Shafieezadeh-Abadeh",
+        "Daniel Kuhn",
+        "Peyman Mohajerin Esfahani"
+    ],
+    "emails": [
+        "soroosh.shafiee@epfl.ch",
+        "daniel.kuhn@epfl.ch",
+        "p.mohajerinesfahani@tudelft.nl"
+    ],
+    "id": "17-633",
+    "issue": 103,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Regularization via Mass Transportation",
+    "volume": 20,
+    "year": 2019
+}

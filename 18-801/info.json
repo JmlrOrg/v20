@@ -1,0 +1,24 @@
+{
+    "abstract": "The growing size of modern data brings many new challenges to existing statistical inference methodologies and theories, and calls for the development of distributed inferential approaches. This paper studies distributed inference for linear support vector machine (SVM) for the binary classification task. Despite a vast literature on SVM, much less is known about the inferential properties of SVM, especially in a distributed setting. In this paper, we propose a multi-round distributed linear-type (MDL) estimator for conducting inference for linear SVM. The proposed estimator is computationally efficient. In particular, it only requires an initial SVM estimator and then successively refines the estimator by solving simple weighted least squares problem. Theoretically, we establish the Bahadur representation of the estimator. Based on the representation, the asymptotic normality is further derived, which shows that the MDL estimator achieves the optimal statistical efficiency, i.e., the same efficiency as the classical linear SVM applying to the entire data set in a single machine setup. Moreover, our asymptotic result avoids the condition on the number of machines or data batches, which is commonly assumed in distributed estimation literature, and allows the case of diverging dimension. We provide simulation studies to demonstrate the performance of the proposed MDL estimator.",
+    "authors": [
+        "Xiaozhou Wang",
+        "Zhuoyi Yang",
+        "Xi Chen",
+        "Weidong Liu"
+    ],
+    "emails": [
+        "wangxiaozhou@sjtu.edu.cn",
+        "zyang@stern.nyu.edu",
+        "xchen3@stern.nyu.edu",
+        "weidongl@sjtu.edu.cn"
+    ],
+    "id": "18-801",
+    "issue": 113,
+    "pages": [
+        1,
+        41
+    ],
+    "title": "Distributed Inference for Linear Support Vector Machine",
+    "volume": 20,
+    "year": 2019
+}

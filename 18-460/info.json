@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a two step algorithm based on $\\ell_1/\\ell_0$ regularization for the detection and estimation of parameters of a high dimensional change point regression model and provide the corresponding rates of convergence for the change point as well as the regression parameter estimates. Importantly, the computational cost of our estimator is only $2\\cdotp$Lasso$(n,p)$, where Lasso$(n,p)$ represents the computational burden of one Lasso optimization in a model of size $(n,p)$. In comparison, existing grid search based approaches to this problem require a computational cost of at least $n\\cdot Lasso(n,p)$ optimizations. Additionally, the proposed method is shown to be able to consistently detect the case of 'no change', i.e., where no finite change point exists in the model. We allow the true change point parameter $\\tau_0$ to possibly move to the boundaries of its parametric space, and the jump size $\\|b_0-g_0\\|_2$ to possibly diverge as $n$ increases. We then characterize the corresponding effects on the rates of convergence of the change point and regression estimates. In particular, we show that, while an increasing jump size may have a beneficial effect on the change point estimate, however the optimal rate of regression parameter estimates are preserved only upto a certain rate of the increasing jump size. This behavior in the rate of regression parameter estimates is unique to high dimensional change point regression models only. Simulations are performed to empirically evaluate performance of the proposed estimators. The methodology is applied to community level socio-economic data of the U.S., collected from the 1990 U.S. census and other sources.",
+    "authors": [
+        "Abhishek Kaul",
+        "Venkata K. Jandhyala",
+        "Stergios B. Fotopoulos"
+    ],
+    "emails": [
+        "abhishek.kaul@wsu.edu",
+        "jandhyala@wsu.edu",
+        "fotopo@wsu.edu"
+    ],
+    "id": "18-460",
+    "issue": 111,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "An Efficient Two Step Algorithm for High Dimensional Change Point Regression Models Without Grid Search",
+    "volume": 20,
+    "year": 2019
+}

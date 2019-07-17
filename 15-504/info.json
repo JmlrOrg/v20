@@ -1,0 +1,24 @@
+{
+    "abstract": "In this paper, we develop a relative error bound for nuclear norm regularized matrix completion, with the focus on the completion of full-rank matrices. Under the assumption that the top eigenspaces of the target matrix are incoherent, we derive a relative upper bound for recovering the best low-rank approximation of the unknown matrix. Although multiple works have been devoted to analyzing the recovery error of full-rank matrix completion, their error bounds are usually additive, making it impossible to obtain the perfect recovery case and more generally difficult to leverage the skewed distribution of eigenvalues. Our analysis is built upon the optimality condition of the regularized formulation and existing guarantees for low-rank matrix completion. To the best of our knowledge, this is the first relative bound that has been proved for the regularized formulation of matrix completion.",
+    "authors": [
+        "Lijun Zhang",
+        "Tianbao Yang",
+        "Rong Jin",
+        "Zhi-Hua Zhou"
+    ],
+    "emails": [
+        "zhanglj@lamda.nju.edu.cn",
+        "tianbao-yang@uiowa.edu",
+        "jinrong.jr@alibaba-inc.com",
+        "zhouzh@lamda.nju.edu.cn"
+    ],
+    "id": "15-504",
+    "issue": 97,
+    "pages": [
+        1,
+        22
+    ],
+    "title": "Relative Error Bound Analysis for Nuclear Norm Regularized Matrix Completion",
+    "volume": 20,
+    "year": 2019
+}

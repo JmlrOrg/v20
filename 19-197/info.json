@@ -1,0 +1,20 @@
+{
+    "abstract": "Structured latent attribute models (SLAMs) are a special family of discrete latent variable models widely used in social and biological sciences. This paper considers the problem of learning significant attribute patterns from a SLAM with potentially high-dimensional configurations of the latent attributes. We address the theoretical identifiability issue, propose a penalized likelihood method for the selection of the attribute patterns, and further establish the selection consistency in such an overfitted SLAM with a diverging number of latent patterns. The good performance of the proposed methodology is illustrated by simulation studies and two real datasets in educational assessments.",
+    "authors": [
+        "Yuqi Gu",
+        "Gongjun Xu"
+    ],
+    "emails": [
+        "yuqigu@umich.edu",
+        "gongjun@umich.edu"
+    ],
+    "id": "19-197",
+    "issue": 115,
+    "pages": [
+        1,
+        58
+    ],
+    "title": "Learning Attribute Patterns in High-Dimensional Structured Latent Attribute Models",
+    "volume": 20,
+    "year": 2019
+}

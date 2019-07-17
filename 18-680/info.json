@@ -1,0 +1,18 @@
+{
+    "abstract": "Can one reduce the size of a graph without significantly altering its basic properties? The graph reduction problem is hereby approached from the perspective of restricted spectral approximation, a modification of the spectral similarity measure used for graph sparsification. This choice is motivated by the observation that restricted approximation carries strong spectral and cut guarantees, and that it implies approximation results for unsupervised learning problems relying on spectral embeddings. The article then focuses on coarsening - the most common type of graph reduction. Sufficient conditions are derived for a small graph to approximate a larger one in the sense of restricted approximation. These findings give rise to algorithms  that, compared to both standard and advanced graph reduction methods, find coarse graphs of improved quality, often by a large margin, without sacrificing speed.",
+    "authors": [
+        "Andreas Loukas"
+    ],
+    "emails": [
+        "andreas.loukas@epfl.ch"
+    ],
+    "id": "18-680",
+    "issue": 116,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Graph Reduction with Spectral and Cut Guarantees",
+    "volume": 20,
+    "year": 2019
+}

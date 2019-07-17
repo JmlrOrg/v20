@@ -1,0 +1,24 @@
+{
+    "abstract": "We propose a simple subsampling scheme for fast randomized approximate computation of optimal transport distances on finite spaces. This scheme operates on a random subset of the full data and can use any exact algorithm as a black-box back-end, including state-of-the-art solvers and entropically penalized versions. It is based on averaging the exact distances between empirical measures generated from independent samples from the original measures and can easily be tuned towards higher accuracy or shorter computation times. To this end, we give non-asymptotic deviation bounds for its accuracy in the case of discrete optimal transport problems. In particular, we show that in many important instances, including images (2D-histograms), the approximation error is independent of the size of the full problem. We present numerical experiments that demonstrate that a very good approximation in typical applications can be obtained in a computation time that is several orders of magnitude smaller than what is required for exact computation of the full problem.",
+    "authors": [
+        "Max Sommerfeld",
+        "J{{\\\"o}}rn Schrieber",
+        "Yoav Zemel",
+        "Axel Munk"
+    ],
+    "emails": [
+        "max.sommerfeld@mathematik.uni-goettingen.de",
+        "joern.schrieber-1@mathematik.uni-goettingen.de",
+        "yoav.zemel@mathematik.uni-goettingen.de",
+        "munk@math.uni-goettingen.de"
+    ],
+    "id": "18-079",
+    "issue": 105,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Optimal Transport: Fast Probabilistic Approximation with Exact Solvers",
+    "volume": 20,
+    "year": 2019
+}

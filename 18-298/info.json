@@ -1,0 +1,24 @@
+{
+    "abstract": "Modern data sets in various domains often include units that were sampled non-randomly from the population and have a latent correlation structure. Here we investigate a common form of this setting, where every unit is associated with a latent variable, all latent variables are correlated, and the probability of sampling a unit depends on its response. Such settings often arise in case-control studies, where the sampled units are correlated due to spatial proximity, family relations, or other sources of relatedness. Maximum likelihood estimation in such settings is challenging from both a computational and statistical perspective, necessitating approximations that take the sampling scheme into account. We propose a family of approximate likelihood approaches which combine composite likelihood and expectation propagation. We demonstrate the efficacy of our solutions via extensive simulations. We utilize them to investigate the genetic architecture of several complex disorders collected in case-control genetic association studies, where hundreds of thousands of genetic variants are measured for every individual, and the underlying disease liabilities of individuals are correlated due to genetic similarity. Our work is the first to provide a tractable likelihood-based solution for case-control data with complex dependency structures.",
+    "authors": [
+        "Omer Weissbrod",
+        "Shachar Kaufman",
+        "David Golan",
+        "Saharon Rosset"
+    ],
+    "emails": [
+        "oweissbrod@hsph.harvard.edu",
+        "shachark@post.tau.ac.il",
+        "david@viz.ai",
+        "saharon@post.tau.ac.il"
+    ],
+    "id": "18-298",
+    "issue": 108,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Maximum Likelihood for Gaussian Process Classification and Generalized Linear Mixed Models under Case-Control Sampling",
+    "volume": 20,
+    "year": 2019
+}
