@@ -1,0 +1,22 @@
+{
+    "abstract": "New methods for time-to-event prediction are proposed by extending the Cox proportional hazards model with neural networks. Building on methodology from nested case-control studies, we propose a loss function that scales well to large data sets and enables fitting of both proportional and non-proportional extensions of the Cox model. Through simulation studies, the proposed loss function is verified to be a good approximation for the Cox partial log-likelihood. The proposed methodology is compared to existing methodologies on real-world data sets and is found to be highly competitive, typically yielding the best performance in terms of Brier score and binomial log-likelihood. A python package for the proposed methods is available at https://github.com/havakv/pycox.",
+    "authors": [
+        "H{{\\aa}}vard Kvamme",
+        "{{\\O}}rnulf Borgan",
+        "Ida Scheel"
+    ],
+    "emails": [
+        "haavakva@math.uio.no",
+        "borgan@math.uio.no",
+        "idasch@math.uio.no"
+    ],
+    "id": "18-424",
+    "issue": 129,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Time-to-Event Prediction with Neural Networks and Cox Regression",
+    "volume": 20,
+    "year": 2019
+}

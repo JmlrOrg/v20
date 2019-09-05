@@ -1,0 +1,18 @@
+{
+    "abstract": "This paper presents an approach for constrained Gaussian Process (GP) regression where we assume that a set of linear transformations of the process are bounded. It is motivated by machine learning applications for high-consequence engineering systems, where this kind of information is often made available from phenomenological knowledge. We consider a GP $f$ over functions on $\\mathcal{X} \\subset \\mathbb{R}^{n}$ taking values in $\\mathbb{R}$, where the process $linop f$ is still Gaussian when $linop $ is a linear operator. Our goal is to model $f$ under the constraint that realizations of $linop f$ are confined to a convex set of functions. In particular, we require that $a \\leq linop f \\leq b$, given two functions $a$ and $b$ where $a < b$ pointwise. This formulation provides a consistent way of encoding multiple linear constraints, such as shape-constraints based on e.g. boundedness, monotonicity or convexity. We adopt the approach of using a sufficiently dense set of virtual observation locations where the constraint is required to hold, and derive the exact posterior for a conjugate likelihood. The results needed for stable numerical implementation are derived, together with an efficient sampling scheme for estimating the posterior process.",
+    "authors": [
+        "Christian Agrell"
+    ],
+    "emails": [
+        "chrisagr@math.uio.no"
+    ],
+    "id": "19-065",
+    "issue": 135,
+    "pages": [
+        1,
+        36
+    ],
+    "title": "Gaussian Processes with Linear Operator Inequality Constraints",
+    "volume": 20,
+    "year": 2019
+}

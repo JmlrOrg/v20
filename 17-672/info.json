@@ -1,0 +1,20 @@
+{
+    "abstract": "We study kernel least-squares estimation under a norm constraint. This form of regularisation is known as Ivanov regularisation and it provides better control of the norm of the estimator than the well-established Tikhonov regularisation. Ivanov regularisation can be studied under minimal assumptions. In particular, we assume only that the RKHS is separable with a bounded and measurable kernel. We provide rates of convergence for the expected squared $L^2$ error of our estimator under the weak assumption that the variance of the response variables is bounded and the unknown regression function lies in an interpolation space between $L^2$ and the RKHS. We then obtain faster rates of convergence when the regression function is bounded by clipping the estimator. In fact, we attain the optimal rate of convergence. Furthermore, we provide a high-probability bound under the stronger assumption that the response variables have subgaussian errors and that the regression function lies in an interpolation space between $L^\\infty$ and the RKHS. Finally, we derive adaptive results for the settings in which the regression function is bounded.",
+    "authors": [
+        "Stephen Page",
+        "Steffen Gr{{\\\"u}}new{{\\\"a}}lder"
+    ],
+    "emails": [
+        "s.page@lancaster.ac.uk",
+        "s.grunewalder@lancaster.ac.uk"
+    ],
+    "id": "17-672",
+    "issue": 120,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Ivanov-Regularised Least-Squares Estimators over Large RKHSs and Their Interpolation Spaces",
+    "volume": 20,
+    "year": 2019
+}

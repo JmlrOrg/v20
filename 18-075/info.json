@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose an efficient algorithm for approximate computation of the profile maximum likelihood (PML), a variant of maximum likelihood maximizing the probability of observing a sufficient statistic rather than the empirical sample. The PML has appealing theoretical properties, but is difficult to compute exactly. Inspired by observations gleaned from exactly solvable cases, we look for an approximate PML solution, which, intuitively, clumps comparably frequent symbols into one symbol. This amounts to lower-bounding a certain matrix permanent by summing over a subgroup of the symmetric group rather than the whole group during the computation. We extensively experiment with the approximate solution, and the empirical performance of our approach is competitive and sometimes significantly better than state-of-the-art performances for various estimation problems.",
+    "authors": [
+        "Dmitri S. Pavlichin",
+        "Jiantao Jiao",
+        "Tsachy Weissman"
+    ],
+    "emails": [
+        "dmitrip@stanford.edu",
+        "jiantao@eecs.berkeley.edu",
+        "tsachy@stanford.edu"
+    ],
+    "id": "18-075",
+    "issue": 122,
+    "pages": [
+        1,
+        55
+    ],
+    "title": "Approximate Profile Maximum Likelihood",
+    "volume": 20,
+    "year": 2019
+}

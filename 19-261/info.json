@@ -1,0 +1,22 @@
+{
+    "abstract": "Several data analysis techniques employ similarity relationships between data points to uncover the intrinsic dimension and geometric structure of the underlying data-generating mechanism. In this paper we work under the model assumption that the data is made of random perturbations of feature vectors lying on a low-dimensional manifold. We study two questions: how to define the similarity relationships over noisy data points, and what is the resulting impact of the choice of similarity in the extraction of global geometric information from the underlying manifold. We provide concrete mathematical evidence that using a local regularization of the noisy data to define the similarity improves the approximation of the hidden Euclidean distance between unperturbed points. Furthermore, graph-based objects constructed with the locally regularized similarity function satisfy better error bounds in their recovery of global geometric ones. Our theory is supported by numerical experiments that demonstrate that the gain in geometric understanding facilitated by local regularization translates into a gain in classification accuracy in simulated and real data.",
+    "authors": [
+        "Nicol{{\\'a}}s Garc{{\\'i}}a Trillos",
+        "Daniel Sanz-Alonso",
+        "Ruiyi Yang"
+    ],
+    "emails": [
+        "garciatrillo@wisc.edu",
+        "sanzalonso@uchicago.edu",
+        "yry@uchicago.edu"
+    ],
+    "id": "19-261",
+    "issue": 136,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Local Regularization of Noisy Point Clouds: Improved Global Geometric Estimates and Data Analysis",
+    "volume": 20,
+    "year": 2019
+}

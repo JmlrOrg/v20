@@ -1,0 +1,24 @@
+{
+    "abstract": "There exist many problems in science and engineering that involve optimization of an unknown or partially unknown objective function. Recently, Bayesian Optimization (BO) has emerged as a powerful tool for solving optimization problems whose objective functions are only available as a black box and are expensive to evaluate. Many practical problems, however, involve optimization of an unknown objective function subject to unknown constraints. This is an important yet challenging problem for which, unlike optimizing an unknown function, existing methods face several limitations. In this paper, we present a novel constrained Bayesian optimization framework to optimize an unknown objective function subject to unknown constraints. We introduce an equivalent optimization by augmenting the objective function with constraints, introducing auxiliary variables for each constraint, and forcing the new variables to be equal to the main variable. Building on the Alternating Direction Method of Multipliers (ADMM) algorithm, we propose ADMM-Bayesian Optimization (ADMMBO) to solve the problem in an iterative fashion. Our framework leads to multiple unconstrained subproblems with unknown objective functions, which we then solve via BO. Our method resolves several challenges of state-of-the-art techniques: it can start from infeasible points, is insensitive to initialization, can efficiently handle `decoupled problems' and has a concrete stopping criterion. Extensive experiments on a number of challenging BO benchmark problems show that our proposed approach outperforms the state-of-the-art methods in terms of the speed of obtaining a feasible solution and convergence to the global optimum as well as minimizing the number of total evaluations of unknown objective and constraints functions.",
+    "authors": [
+        "Setareh Ariafar",
+        "Jaume Coll-Font",
+        "Dana Brooks",
+        "Jennifer Dy"
+    ],
+    "emails": [
+        "sariafar@ece.neu.edu",
+        "jcollfont@gmail.com",
+        "brooks@ece.neu.edu",
+        "jdy@ece.neu.edu"
+    ],
+    "id": "18-227",
+    "issue": 123,
+    "pages": [
+        1,
+        26
+    ],
+    "title": "ADMMBO: Bayesian Optimization with Unknown Constraints using ADMM",
+    "volume": 20,
+    "year": 2019
+}

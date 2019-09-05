@@ -1,0 +1,26 @@
+{
+    "abstract": "Ordinal regression, also named ordinal classification, studies classification problems where there exist a natural order between class labels. This structured order of the labels is crucial in all steps of the learning process in order to take full advantage of the data. ORCA (Ordinal Regression and Classification Algorithms) is a Matlab/Octave framework that implements and integrates different ordinal classification algorithms and specifically designed performance metrics. The framework simplifies the task of experimental comparison to a great extent, allowing the user to: (i) describe experiments by simple configuration files; (ii) automatically run different data partitions; (iii) parallelize the executions; (iv) generate a variety of performance reports and (v) include new algorithms by using its intuitive interface. Source code, binaries, documentation, descriptions and links to data sets and tutorials (including examples of educational purpose) are available at https://github.com/ayrna/orca.",
+    "authors": [
+        "Javier S{{\\'a}}nchez-Monedero",
+        "Pedro A. Guti{{\\'e}}rrez",
+        "Mar{{\\'i}}a P{{\\'e}}rez-Ortiz"
+    ],
+    "emails": [
+        "sanchez-monederoj@cardiff.ac.uk",
+        "pagutierrez@uco.es",
+        "maria.perez@ucl.ac.uk"
+    ],
+    "id": "18-349",
+    "issue": 125,
+    "pages": [
+        1,
+        5
+    ],
+    "title": "ORCA: A Matlab/Octave Toolbox for Ordinal Regression",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/ayrna/orca"]
+    ],
+    "special_issue": "MLOSS"
+}

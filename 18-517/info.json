@@ -1,0 +1,22 @@
+{
+    "abstract": "Our interest in this paper is in the construction of symbolic explanations for predictions made by a deep neural network. We will focus attention on deep relational machines (DRMs: a term introduced in Lodhi (2013)). A DRM is a deep network in which the input layer consists of Boolean-valued functions (features) that are defined in terms of relations provided as domain, or background, knowledge. Our DRMs differ from those in Lodhi (2013), which uses an Inductive Logic Programming (ILP) engine to first select features (we use random selections from a space of features that satisfies some approximate constraints on logical relevance and non-redundancy). But why do the DRMs predict what they do? One way of answering this was provided in recent work Ribeiro et al. (2016), by constructing readable proxies for a black-box predictor. The proxies are intended only to model the predictions of the black-box in local regions of the instance-space. But readability alone may not be enough: to be understandable, the local models must use relevant concepts in an meaningful manner. We investigate the use of a Bayes-like approach to identify logical proxies for local predictions of a DRM. As a preliminary step, we show that DRM's with our randomised propositionalization method achieve predictive performance that is comparable to the best reports in the ILP literature. Our principal results on logical explanations show: (a) Models in first-order logic can approximate the DRM's prediction closely in a small local region; and (b) Expert-provided relevance information can play the role of a prior to distinguish between logical explanations that perform equivalently on prediction alone.",
+    "authors": [
+        "Ashwin Srinivasan",
+        "Lovekesh Vig",
+        "Michael Bain"
+    ],
+    "emails": [
+        "ashwin.srinivasan@wolfson.oxon.org",
+        "ig@tcs.com",
+        "m.bain@unsw.edu.au"
+    ],
+    "id": "18-517",
+    "issue": 130,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Logical Explanations for Deep Relational Machines Using Relevance Information",
+    "volume": 20,
+    "year": 2019
+}

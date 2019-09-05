@@ -1,0 +1,20 @@
+{
+    "abstract": "Recent work on variational autoencoders (VAEs) has enabled the development of generative topic models using neural networks. Topic models based on latent Dirichlet allocation (LDA) successfully use the Dirichlet distribution as a prior for the topic and word distributions to enforce sparseness. However, there is a trade-off between sparsity and smoothness in Dirichlet distributions. Sparsity is important for a low reconstruction error during training of the autoencoder, whereas smoothness enables generalization and leads to a better log-likelihood of the test data. Both of these properties are encoded in the Dirichlet parameter vector. By rewriting this parameter vector into a product of a sparse binary vector and a smoothness vector, we decouple the two properties, leading to a model that features both a competitive topic coherence and a high log-likelihood. Efficient training is enabled using rejection sampling variational inference for the reparameterization of the Dirichlet distribution. Our experiments show that our method is competitive with other recent VAE topic models.",
+    "authors": [
+        "Sophie Burkhardt",
+        "Stefan Kramer"
+    ],
+    "emails": [
+        "burkhardt@informatik.uni-mainz.de",
+        "kramer@informatik.uni-mainz.de"
+    ],
+    "id": "18-569",
+    "issue": 131,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Decoupling Sparsity and Smoothness in the Dirichlet Variational Autoencoder Topic Model",
+    "volume": 20,
+    "year": 2019
+}

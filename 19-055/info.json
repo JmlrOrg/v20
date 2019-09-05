@@ -1,0 +1,22 @@
+{
+    "abstract": "We propose a stochastic variance-reduced cubic regularized Newton method (SVRC) for non-convex optimization. At the core of SVRC is a novel semi-stochastic gradient along with a semi-stochastic Hessian, which are specifically designed for cubic regularization method. For a nonconvex function with $n$ component functions, we show that our algorithm is guaranteed to converge to an $(\\epsilon,\\sqrt{\\epsilon})$-approximate local minimum within $\\tilde{O}(n^{4/5}/\\epsilon^{3/2})$\\footnote{Here $\\tilde{O}$ hides poly-logarithmic factors.} second-order oracle calls, which outperforms the state-of-the-art cubic regularization algorithms including subsampled cubic regularization. To further reduce the sample complexity of Hessian matrix computation in cubic regularization based methods, we also propose a sample efficient stochastic variance-reduced cubic regularization (Lite-SVRC) algorithm for finding the local minimum more efficiently. Lite-SVRC converges to an $(\\epsilon,\\sqrt{\\epsilon})$-approximate local minimum within $\\tilde{O}(n+n^{2/3}/\\epsilon^{3/2})$ Hessian sample complexity, which is faster than all existing cubic regularization based methods. Numerical experiments with different nonconvex optimization problems conducted on real datasets validate our theoretical results for both SVRC and Lite-SVRC.",
+    "authors": [
+        "Dongruo Zhou",
+        "Pan Xu",
+        "Quanquan Gu"
+    ],
+    "emails": [
+        "drzhou@cs.ucla.edu",
+        "panxu@cs.ucla.edu",
+        "qgu@cs.ucla.edu"
+    ],
+    "id": "19-055",
+    "issue": 134,
+    "pages": [
+        1,
+        47
+    ],
+    "title": "Stochastic Variance-Reduced Cubic Regularization Methods ",
+    "volume": 20,
+    "year": 2019
+}

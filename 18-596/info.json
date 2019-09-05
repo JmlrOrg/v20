@@ -1,0 +1,18 @@
+{
+    "abstract": "In this paper, we propose improved estimation method for logistic regression based on subsamples taken according the optimal subsampling probabilities developed in Wang et al. (2018). Both asymptotic results and numerical results show that the new estimator has a higher estimation efficiency. We also develop a new algorithm based on Poisson subsampling, which does not require to approximate the optimal subsampling probabilities all at once. This is computationally advantageous when available random-access memory is not enough to hold the full data. Interestingly, asymptotic distributions also show that Poisson subsampling produces a more efficient estimator if the sampling ratio, the ratio of the subsample size to the full data sample size, does not converge to zero. We also obtain the unconditional asymptotic distribution for the estimator based on Poisson subsampling. Pilot estimators are required to calculate subsampling probabilities and to correct biases in un-weighted estimators; interestingly, even if pilot estimators are inconsistent, the proposed method still produce consistent and asymptotically normal estimators.",
+    "authors": [
+        "HaiYing Wang"
+    ],
+    "emails": [
+        "haiying.wang@uconn.edu"
+    ],
+    "id": "18-596",
+    "issue": 132,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "More Efficient Estimation for Logistic Regression with Optimal Subsamples",
+    "volume": 20,
+    "year": 2019
+}

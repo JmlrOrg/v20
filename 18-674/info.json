@@ -1,0 +1,22 @@
+{
+    "abstract": "Neural networks provide a rich class of high-dimensional, non-convex optimization problems. Despite their non-convexity, gradient-descent methods often successfully optimize these models. This has motivated a recent spur in research attempting to characterize properties of their loss surface that may explain such success. In this paper, we address this phenomenon by studying a key topological property of the loss: the presence or absence of spurious valleys, defined as connected components of sub-level sets that do not include a global minimum. Focusing on a class of one-hidden-layer neural networks defined by smooth (but generally non-linear) activation functions, we identify a notion of intrinsic dimension and show that it provides necessary and sufficient conditions for the absence of spurious valleys. More concretely, finite intrinsic dimension guarantees that for sufficiently overparametrised models no spurious valleys exist, independently of the data distribution. Conversely, infinite intrinsic dimension implies that spurious valleys do exist for certain data distributions, independently of model overparametrisation. Besides these positive and negative results, we show that, although spurious valleys may exist in general, they are confined to low risk levels and avoided with high probability on overparametrised models.",
+    "authors": [
+        "Luca Venturi",
+        "Afonso S. Bandeira",
+        "Joan Bruna"
+    ],
+    "emails": [
+        "venturi@cims.nyu.edu",
+        "bandeira@cims.nyu.edu",
+        "bruna@cims.nyu.edu"
+    ],
+    "id": "18-674",
+    "issue": 133,
+    "pages": [
+        1,
+        34
+    ],
+    "title": "Spurious Valleys in One-hidden-layer Neural Network Optimization Landscapes",
+    "volume": 20,
+    "year": 2019
+}

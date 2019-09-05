@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the use of randomized value functions to guide deep exploration in reinforcement learning. This offers an elegant means for synthesizing statistically and computationally efficient exploration with common practical approaches to value function learning. We present several reinforcement learning algorithms that leverage randomized value functions and demonstrate their efficacy through computational studies. We also prove a regret bound that establishes statistical efficiency with a tabular representation.",
+    "authors": [
+        "Ian Osband",
+        "Benjamin Van Roy",
+        "Daniel J. Russo",
+        "Zheng Wen"
+    ],
+    "emails": [
+        "iosband@google.com",
+        "bvr@stanford.edu",
+        "djr2174@gsb.columbia.edu",
+        "zwen@adobe.com"
+    ],
+    "id": "18-339",
+    "issue": 124,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Deep Exploration via Randomized Value Functions",
+    "volume": 20,
+    "year": 2019
+}

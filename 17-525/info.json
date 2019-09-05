@@ -1,0 +1,24 @@
+{
+    "abstract": "Nonparametric estimation of multivariate functions is an important problem in statistical machine learning with many applications, ranging from nonparametric regression to nonparametric graphical models. Several authors have proposed to estimate multivariate functions under the smoothing spline analysis of variance (SSANOVA) framework, which assumes that the multivariate function can be decomposed into the summation of main effects, two-way interaction effects, and higher order interaction effects. However, existing methods are not scalable to the dimension of the random variables and the order of interactions. We propose a LAyer-wiSE leaRning strategy (LASER) to estimate multivariate functions under the SSANOVA framework. The main idea is to approximate the multivariate function sequentially starting from a model with only the main effects. Conditioned on the support of the estimated main effects, we estimate the two-way interaction effects only when the corresponding main effects are estimated to be non-zero. This process is continued until no more higher order interaction effects are identified. The proposed strategy provides a data-driven approach for estimating multivariate functions under the SSANOVA framework. Our proposal yields a sequence of estimators. To establish the theoretical properties of the sequence of estimators, we establish the notion of post-selection persistency. Extensive numerical studies are performed to evaluate the performance of our algorithm.",
+    "authors": [
+        "Kean Ming Tan",
+        "Junwei Lu",
+        "Tong Zhang",
+        "Han Liu"
+    ],
+    "emails": [
+        "keanming@umich.edu",
+        "junweilu@hsph.harvard.edu",
+        "tongzhang@tongzhang-ml.org",
+        "hanliu@northwestern.edu"
+    ],
+    "id": "17-525",
+    "issue": 119,
+    "pages": [
+        1,
+        38
+    ],
+    "title": "Layer-Wise Learning Strategy for Nonparametric Tensor Product Smoothing Spline Regression and Graphical Models",
+    "volume": 20,
+    "year": 2019
+}
