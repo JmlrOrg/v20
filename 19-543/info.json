@@ -1,0 +1,26 @@
+{
+    "abstract": "This work proposes a theoretical analysis of distributed optimization of convex functions using a network of computing units. We investigate this problem under two communication schemes (centralized and decentralized) and four classical regularity assumptions: Lipschitz continuity, strong convexity, smoothness, and a combination of strong convexity and smoothness. Under the decentralized communication scheme, we provide matching upper and lower bounds of complexity along with algorithms achieving this rate up to logarithmic constants. For non-smooth objective functions, while the dominant term of the error is in $O(1/\\sqrt{t})$, the structure of the communication network only impacts a second-order term in $O(1/t)$, where $t$ is time. In other words, the error due to limits in communication resources decreases at a fast rate even in the case of non-strongly convex objective functions. Such a convergence rate is achieved by the novel multi-step primal-dual (MSPD) algorithm. Under the centralized communication scheme, we show that the naive distribution of standard optimization algorithms is optimal for smooth objective functions, and provide a simple yet efficient algorithm called distributed randomized smoothing (DRS) based on a local smoothing of the objective function for non-smooth functions. We then show that DRS is within a $d^{1/4}$ multiplicative factor of the optimal convergence rate, where $d$ is the underlying dimension.",
+    "authors": [
+        "Kevin Scaman",
+        "Francis Bach",
+        "S{{\\'e}}bastien Bubeck",
+        "Yin Tat Lee",
+        "Laurent Massouli{{\\'e}}"
+    ],
+    "emails": [
+        "kevin.scaman@huawei.com",
+        "francis.bach@inria.fr",
+        "sebubeck@microsoft.com",
+        "yile@microsoft.com",
+        "laurent.massoulie@inria.fr"
+    ],
+    "id": "19-543",
+    "issue": 159,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "Optimal Convergence Rates for Convex Distributed Optimization in Networks",
+    "volume": 20,
+    "year": 2019
+}

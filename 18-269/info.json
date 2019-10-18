@@ -1,0 +1,22 @@
+{
+    "abstract": "Kasiviswanathan et al. (FOCS 2008) defined private learning as a combination of PAC learning and differential privacy. Informally, a private learner is applied to a collection of labeled individual information and outputs a hypothesis while preserving the privacy of each individual. Kasiviswanathan et al. left open the question of characterizing the sample complexity of private learners. We give a combinatorial characterization of the sample size sufficient and necessary to learn a class of concepts under pure differential privacy. This characterization is analogous to the well known characterization of the sample complexity of non-private learning in terms of the VC dimension of the concept class. We introduce the notion of probabilistic representation of a concept class, and our new complexity measure $RepDim$ corresponds to the size of the smallest probabilistic representation of the concept class. We show that any private learning algorithm for a concept class $C$ with sample complexity $m$ implies $RepDim(C)=O(m)$, and that there exists a private learning algorithm with sample complexity $m=O(RepDim(C))$. We further demonstrate that a similar characterization holds for the database size needed for computing a large class of optimization problems under pure differential privacy, and also for the well studied problem of private data release.",
+    "authors": [
+        "Amos Beimel",
+        "Kobbi Nissim",
+        "Uri Stemmer"
+    ],
+    "emails": [
+        "beimel@cs.bgu.ac.il",
+        "kobbi.nissim@georgetown.edu",
+        "u@uri.co.il"
+    ],
+    "id": "18-269",
+    "issue": 146,
+    "pages": [
+        1,
+        33
+    ],
+    "title": "Characterizing the Sample Complexity of Pure Private Learners",
+    "volume": 20,
+    "year": 2019
+}

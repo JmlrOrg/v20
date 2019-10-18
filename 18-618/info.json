@@ -1,0 +1,22 @@
+{
+    "abstract": "Topological data analysis refers to a broad set of techniques that are used to make inferences about the shape of data. A popular topological summary is the persistence diagram. Through the language of random sets, we describe a notion of global probability density function for persistence diagrams that fully characterizes their behavior and in part provides a noise likelihood model. Our approach encapsulates the number of topological features and considers the appearance or disappearance of those near the diagonal in a stable fashion. In particular, the structure of our kernel individually tracks long persistence features, while considering those near the diagonal as a collective unit. The choice to describe short persistence features as a group reduces computation time while simultaneously retaining accuracy. Indeed, we prove that the associated kernel density estimate converges to the true distribution as the number of persistence diagrams increases and the bandwidth shrinks accordingly. We also establish the convergence of the mean absolute deviation estimate, defined according to the bottleneck metric. Lastly, examples of kernel density estimation are presented for typical underlying datasets as well as for virtual electroencephalographic data related to cognition.",
+    "authors": [
+        "Vasileios Maroulas",
+        "Joshua L Mike",
+        "Christopher Oballe"
+    ],
+    "emails": [
+        "vmaroula@utk.edu",
+        "mikejosh@msu.edu",
+        "coballe@vols.utk.edu"
+    ],
+    "id": "18-618",
+    "issue": 151,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "Nonparametric Estimation of Probability Density Functions of Random Persistence Diagrams",
+    "volume": 20,
+    "year": 2019
+}

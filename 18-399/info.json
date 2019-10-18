@@ -1,0 +1,24 @@
+{
+    "abstract": "We introduce coroICA, confounding-robust independent component analysis, a novel ICA algorithm which decomposes linearly mixed multivariate observations into independent components that are corrupted (and rendered dependent) by hidden group-wise stationary confounding. It extends the ordinary ICA model in a theoretically sound and explicit way to incorporate group-wise (or environment-wise) confounding. We show that our proposed general noise model allows to perform ICA in settings where other noisy ICA procedures fail. Additionally, it can be used for applications with grouped data by adjusting for different stationary noise within each group. Our proposed noise model has a natural relation to causality and we explain how it can be applied in the context of causal inference. In addition to our theoretical framework, we provide an efficient estimation procedure and prove identifiability of the unmixing matrix under mild assumptions. Finally, we illustrate the performance and robustness of our method on simulated data, provide audible and visual examples, and demonstrate the applicability to real-world scenarios by experiments on publicly available Antarctic ice core data as well as two EEG data sets. We provide a scikit-learn compatible pip-installable Python package coroICA as well as R and Matlab implementations accompanied by a documentation at https://sweichwald.de/coroICA/",
+    "authors": [
+        "Niklas Pfister",
+        "Sebastian Weichwald",
+        "Peter B{{\\\"u}}hlmann",
+        "Bernhard Sch{{\\\"o}}lkopf"
+    ],
+    "emails": [
+        "pfister@stat.math.ethz.ch"
+    ],
+    "id": "18-399",
+    "issue": 147,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "Robustifying Independent Component Analysis by Adjusting for Group-Wise Stationary Noise",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://sweichwald.de/coroICA/"]
+    ]
+}

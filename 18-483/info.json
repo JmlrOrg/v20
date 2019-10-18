@@ -1,0 +1,20 @@
+{
+    "abstract": "Matrix completion aims to reconstruct a data matrix based on observations of a small number of its entries. Usually in matrix completion a single matrix is considered, which can be, for example, a rating matrix in recommendation system. However, in practical situations, data is often obtained from multiple sources which results in a collection of matrices rather than a single one. In this work, we consider the problem of collective matrix completion with multiple and heterogeneous matrices, which can be count, binary, continuous, etc. We first investigate the setting where, for each source, the matrix entries are sampled from an exponential family distribution. Then, we relax the assumption of exponential family distribution for the noise. In this setting, we do not assume any specific model for the observations. The estimation procedures are based on minimizing the sum of a goodness-of-fit term and the nuclear norm penalization of the whole collective matrix. We prove that the proposed estimators achieve fast rates of convergence under the two considered settings and we corroborate our results with numerical experiments.",
+    "authors": [
+        "Mokhtar Z. Alaya",
+        "Olga Klopp"
+    ],
+    "emails": [
+        "mokhtarzahdi.alaya@gmail.com",
+        "kloppolga@math.cnrs.fr"
+    ],
+    "id": "18-483",
+    "issue": 148,
+    "pages": [
+        1,
+        43
+    ],
+    "title": "Collective Matrix Completion",
+    "volume": 20,
+    "year": 2019
+}

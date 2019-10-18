@@ -1,0 +1,20 @@
+{
+    "abstract": "This work studies low-rank approximation of a positive semidefinite matrix from partial entries via nonconvex optimization. We characterized how well local-minimum based low-rank factorization approximates a fixed positive semidefinite matrix without any assumptions on the rank-matching, the condition number or eigenspace incoherence parameter. Furthermore, under certain assumptions on rank-matching and well-boundedness of condition numbers and eigenspace incoherence parameters, a corollary of our main theorem improves the state-of-the-art sampling rate results for nonconvex matrix completion with no spurious local minima in Ge et al. (2016, 2017). In addition, we have investigated when the proposed nonconvex optimization results in accurate low-rank approximations even in presence of large condition numbers, large incoherence parameters, or rank mismatching. We also propose to apply the nonconvex optimization to memory-efficient kernel PCA. Compared to the well-known Nystr{{\\\"o}}m methods, numerical experiments indicate that the proposed nonconvex optimization approach yields more stable results in both low-rank approximation and clustering.",
+    "authors": [
+        "Ji Chen",
+        "Xiaodong Li"
+    ],
+    "emails": [
+        "ljichen@ucdavis.edu",
+        "xdgli@ucdavis.edu"
+    ],
+    "id": "17-776",
+    "issue": 142,
+    "pages": [
+        1,
+        39
+    ],
+    "title": "Model-free Nonconvex Matrix Completion: Local Minima Analysis and Applications in Memory-efficient Kernel PCA",
+    "volume": 20,
+    "year": 2019
+}

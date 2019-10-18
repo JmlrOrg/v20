@@ -1,0 +1,33 @@
+{
+    "abstract": "Object detection and instance recognition play a central role in many AI applications like autonomous driving, video surveillance and medical image analysis. However, training object detection models on large scale datasets remains computationally expensive and time consuming. This paper presents an efficient and open source object detection framework called SimpleDet which enables the training of state-of-the-art detection models on consumer grade hardware at large scale. SimpleDet covers a wide range of models including both high-performance and high-speed ones. SimpleDet is well-optimized for both low precision training and distributed training and achieves 70% higher throughput for the Mask R-CNN detector compared with existing frameworks. Codes, examples and documents of SimpleDet can be found at https://github.com/tusimple/simpledet.",
+    "authors": [
+        "Yuntao Chen",
+        "Chenxia Han",
+        "Yanghao Li",
+        "Zehao Huang",
+        "Yi Jiang",
+        "Naiyan Wang",
+        "Zhaoxiang Zhang"
+    ],
+    "emails": [
+        "chenyuntao2016@ia.ac.cn",
+        "chenxiahan18@gmail.com",
+        "lyttonhao@gmail.com",
+        "zehaohuang18@gmail.com",
+        "jiangyi0425@gmail.com",
+        "winsty@gmail.com",
+        "zhaoxiang.zhang@ia.ac.cn"
+    ],
+    "id": "19-205",
+    "issue": 156,
+    "pages": [
+        1,
+        8
+    ],
+    "title": "SimpleDet: A Simple and Versatile Distributed Framework for Object Detection and Instance Recognition",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/tusimple/simpledet"]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "abstract": "This paper studies Dictionary Learning problems wherein the learning task is distributed over a multi-agent network, modeled as a time-varying directed graph. This formulation is relevant, for instance, in Big Data scenarios where massive amounts of data are collected/stored in different locations (e.g., sensors, clouds) and aggregating and/or processing all data in a fusion center might be inefficient or unfeasible, due to resource limitations, communication overheads or privacy issues. We develop a unified decentralized algorithmic framework for this class of nonconvex problems, which is proved to converge to stationary solutions at a sublinear rate. The new method hinges on Successive Convex Approximation techniques, coupled with a decentralized tracking mechanism aiming at locally estimating the gradient of the smooth part of the sum-utility. To the best of our knowledge, this is the first provably convergent decentralized algorithm for Dictionary Learning and, more generally, bi-convex problems over (time-varying) (di)graphs.",
+    "authors": [
+        "Amir Daneshmand",
+        "Ying Sun",
+        "Gesualdo Scutari",
+        "Francisco Facchinei",
+        "Brian M. Sadler"
+    ],
+    "emails": [
+        "adaneshm@purdue.edu",
+        "sun578@purdue.edu",
+        "gscutari@purdue.edu",
+        "facchinei@diag.uniroma1.it",
+        "brian.m.sadler6.civ@mail.mil"
+    ],
+    "id": "17-534",
+    "issue": 139,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Decentralized Dictionary Learning Over Time-Varying Digraphs",
+    "volume": 20,
+    "year": 2019
+}

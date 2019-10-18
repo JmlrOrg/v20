@@ -1,0 +1,20 @@
+{
+    "abstract": "Risk scores are simple classification models that let users make quick risk predictions by adding and subtracting a few small numbers. These models are widely used in medicine and criminal justice, but are difficult to learn from data because they need to be calibrated, sparse, use small integer coefficients, and obey application-specific constraints. In this paper, we introduce a machine learning method to learn risk scores. We formulate the risk score problem as a mixed integer nonlinear program, and present a cutting plane algorithm to recover its optimal solution. We improve our algorithm with specialized techniques that generate feasible solutions, narrow the optimality gap, and reduce data-related computation. Our algorithm can train risk scores in a way that scales linearly in the number of samples in a dataset, and that allows practitioners to address application-specific constraints without parameter tuning or post-processing. We benchmark the performance of different methods to learn risk scores on publicly available datasets, comparing risk scores produced by our method to risk scores built using methods that are used in practice. We also discuss the practical benefits of our method through a real-world application where we build a customized risk score for ICU seizure prediction in collaboration with the Massachusetts General Hospital.",
+    "authors": [
+        "Berk Ustun",
+        "Cynthia Rudin"
+    ],
+    "emails": [
+        "berk@seas.harvard.edu",
+        "cynthia@cs.duke.edu"
+    ],
+    "id": "18-615",
+    "issue": 150,
+    "pages": [
+        1,
+        75
+    ],
+    "title": "Learning Optimized Risk Scores",
+    "volume": 20,
+    "year": 2019
+}

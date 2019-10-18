@@ -1,0 +1,20 @@
+{
+    "abstract": "The problem of multiclass boosting is considered. A new formulation is presented, combining multi-dimensional predictors, multi-dimensional real-valued codewords, and proper multiclass margin loss functions. This leads to a number of contributions, such as maximum capacity codeword sets, a family of proper and margin enforcing losses, denoted as $\\gamma-\\phi$ losses, and two new multiclass boosting algorithms. These are descent procedures on the functional space spanned by a set of weak learners. The first, CD-MCBoost, is a coordinate descent procedure that updates one predictor component at a time. The second, GD-MCBoost, a gradient descent procedure that updates all components jointly. Both MCBoost algorithms are defined with respect to a $\\gamma-\\phi$ loss and can reduce to classical boosting procedures (such as AdaBoost and LogitBoost) for binary problems. Beyond the algorithms themselves, the proposed formulation enables a unified treatment of many previous multiclass boosting algorithms. This is used to show that the latter implement different combinations of optimization strategy, codewords, weak learners, and loss function, highlighting some of their deficiencies. It is shown that no previous method matches the support of MCBoost for real codewords of maximum capacity, a proper margin-enforcing loss function, and any family of multidimensional predictors and weak learners. Experimental results confirm the superiority of MCBoost, showing that the two proposed MCBoost algorithms outperform comparable prior methods on a number of datasets.",
+    "authors": [
+        "Mohammad Saberian",
+        "Nuno Vasconcelos"
+    ],
+    "emails": [
+        "saberian@ucsd.edu",
+        "nuno@ucsd.edu"
+    ],
+    "id": "17-137",
+    "issue": 137,
+    "pages": [
+        1,
+        68
+    ],
+    "title": "Multiclass Boosting: Margins, Codewords, Losses, and Algorithms",
+    "volume": 20,
+    "year": 2019
+}

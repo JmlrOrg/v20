@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider the task of recovering two real or complex $m$-vectors from phaseless Fourier measurements of their circular convolution. Our method is a novel convex relaxation that is based on a lifted matrix recovery formulation that allows a non-trivial convex relaxation of the bilinear measurements from convolution. We prove that if the two signals belong to known random subspaces of dimensions $k$ and $n$, then they can be recovered up to the inherent scaling ambiguity with $m \\gg (k+n) \\log^2 m$ phaseless measurements. Our method provides the first theoretical recovery guarantee for this problem by a computationally efficient algorithm and does not require a solution estimate to be computed for initialization. Our proof is based on Rademacher complexity estimates. Additionally, we provide an alternating direction method of multipliers (ADMM) implementation and provide numerical experiments that verify the theory.",
+    "authors": [
+        "Ali Ahmed",
+        "Alireza Aghasi",
+        "Paul Hand"
+    ],
+    "emails": [
+        "ali.ahmed@itu.edu.pk",
+        "aaghasi@gsu.edu",
+        "p.hand@northeastern.edu"
+    ],
+    "id": "19-332",
+    "issue": 157,
+    "pages": [
+        1,
+        28
+    ],
+    "title": "Simultaneous Phase Retrieval and Blind Deconvolution via Convex Programming",
+    "volume": 20,
+    "year": 2019
+}

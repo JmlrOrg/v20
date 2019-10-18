@@ -1,0 +1,20 @@
+{
+    "abstract": "Subspace segmentation, or subspace learning, is a challenging and complicated task in machine learning. This paper builds a primary frame and solid theoretical bases for the minimal subspace segmentation (MSS) of finite samples. The existence and conditional uniqueness of MSS are discussed with conditions generally satisfied in applications. Utilizing weak prior information of MSS, the minimality inspection of segments is further simplified to the prior detection of partitions. The MSS problem is then modeled as a computable optimization problem via the self-expressiveness of samples. A closed form of the representation matrices is first given for the self-expressiveness, and the connection of diagonal blocks is addressed. The MSS model uses a rank restriction on the sum of segment ranks. Theoretically, it can retrieve the minimal sample subspaces that could be heavily intersected. The optimization problem is solved via a basic manifold conjugate gradient algorithm, alternative optimization and hybrid optimization, therein considering solutions to both the primal MSS problem and its pseudo-dual problem. The MSS model is further modified for handling noisy data and solved by an ADMM algorithm. The reported experiments show the strong ability of the MSS method to retrieve minimal sample subspaces that are heavily intersected.",
+    "authors": [
+        "Zhenyue Zhang",
+        "Yuqing Xia"
+    ],
+    "emails": [
+        "zyzhang@zju.edu.cn",
+        "xiayq@zju.edu.cn"
+    ],
+    "id": "18-084",
+    "issue": 143,
+    "pages": [
+        1,
+        57
+    ],
+    "title": "Minimal Sample Subspace Learning: Theory and Algorithms",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,20 @@
+{
+    "abstract": "Gaussian belief propagation (BP) is a low-complexity and distributed method for computing the marginal distributions of a high-dimensional joint Gaussian distribution. However, Gaussian BP is only guaranteed to converge in singly connected graphs and may fail to converge in loopy graphs. Therefore, convergence analysis is a core topic in Gaussian BP. Existing conditions for verifying the convergence of Gaussian BP are all tailored for one particular pairwise factorization of the distribution in Gaussian Markov random field (MRF) and may not be valid for another pairwise factorization. On the other hand, convergence conditions of Gaussian BP in pairwise linear Gaussian model are developed independently from those in Gaussian MRF, making the convergence results highly scattered with diverse settings. In this paper, the convergence condition of Gaussian BP is investigated under a general pairwise factorization, which includes Gaussian MRF and pairwise linear Gaussian model as special cases. Upon this, existing convergence conditions in Gaussian MRF are extended to any pairwise factorization. Moreover, the newly established link between Gaussian MRF and pairwise linear Gaussian model reveals an easily verifiable sufficient convergence condition in pairwise linear Gaussian model, which provides a unified criterion for assessing the convergence of Gaussian BP in multiple applications. Numerical examples are presented to corroborate the theoretical results of this paper.",
+    "authors": [
+        "Bin Li",
+        "Yik-Chung Wu"
+    ],
+    "emails": [
+        "binli@eee.hku.hk",
+        "ycwu@eee.hku.hk"
+    ],
+    "id": "18-133",
+    "issue": 144,
+    "pages": [
+        1,
+        30
+    ],
+    "title": "Convergence of Gaussian Belief Propagation Under General Pairwise Factorization: Connecting Gaussian MRF with Pairwise Linear Gaussian Model",
+    "volume": 20,
+    "year": 2019
+}

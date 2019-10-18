@@ -1,0 +1,24 @@
+{
+    "abstract": "We consider the problem of estimating a probability distribution that maximizes the entropy while satisfying a finite number of moment constraints, possibly corrupted by noise. Based on duality of convex programming, we present a novel approximation scheme using a smoothed fast gradient method that is equipped with explicit bounds on the approximation error. We further demonstrate how the presented scheme can be used for approximating the chemical master equation through the zero-information moment closure method, and for an approximate dynamic programming approach in the context of constrained Markov decision processes with uncountable state and action spaces.",
+    "authors": [
+        "Tobias Sutter",
+        "David Sutter",
+        "Peyman Mohajerin Esfahani",
+        "John Lygeros"
+    ],
+    "emails": [
+        "tobias.sutter@epfl.ch",
+        "suttedav@phys.ethz.ch",
+        "sfahani@tudelft.nl",
+        "lygeros@control.ee.ethz.ch"
+    ],
+    "id": "17-486",
+    "issue": 138,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Generalized Maximum Entropy Estimation",
+    "volume": 20,
+    "year": 2019
+}

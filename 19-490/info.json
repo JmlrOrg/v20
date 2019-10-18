@@ -1,0 +1,31 @@
+{
+    "abstract": "We introduce graspy, a Python library devoted to statistical inference, machine learning, and visualization of random graphs and graph populations. This package provides flexible and easy-to-use algorithms for analyzing and understanding graphs with a sklearn compliant API. graspy can be downloaded from Python Package Index (PyPi), and is released under the Apache 2.0 open-source license. The documentation and all releases are available at https://neurodata.io/graspy.",
+    "authors": [
+        "Jaewon Chung",
+        "Benjamin D. Pedigo",
+        "Eric W. Bridgeford",
+        "Bijan K. Varjavand",
+        "Hayden S. Helm",
+        "Joshua T. Vogelstein"
+    ],
+    "emails": [
+        "j1c@jhu.edu",
+        "bpedigo@jhu.edu",
+        "ebridge2@jhu.edu",
+        "bvarjav1@jhu.edu",
+        "hh@jhu.edu",
+        "jovo@jhu.edu"
+    ],
+    "id": "19-490",
+    "issue": 158,
+    "pages": [
+        1,
+        7
+    ],
+    "title": "GraSPy: Graph Statistics in Python",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://neurodata.io/graspy"]
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "Accurately quantifying uncertainty in predictions is essential for the deployment of machine learning algorithms in critical applications where mistakes are costly. Most approaches to quantifying prediction uncertainty have focused on settings where the data is static, or bounded. In this paper, we investigate methods that quantify the prediction uncertainty in a streaming setting, where the data is potentially unbounded. We propose two meta-algorithms that produce prediction intervals for online regression forests of arbitrary tree models; one based on conformal prediction, and the other based on quantile regression. We show that the approaches are able to maintain specified error rates, with constant computational cost per example and bounded memory usage. We provide empirical evidence that the methods outperform the state-of-the-art in terms of maintaining error guarantees, while being an order of magnitude faster. We also investigate how the algorithms are able to recover from concept drift.",
+    "authors": [
+        "Theodore Vasiloudis",
+        "Gianmarco De Francisci Morales",
+        "Henrik Bostr{{\\\"o}}m"
+    ],
+    "emails": [
+        "tvas@sics.se",
+        "gdfm@acm.org",
+        "bostromh@kth.se"
+    ],
+    "id": "19-006",
+    "issue": 155,
+    "pages": [
+        1,
+        35
+    ],
+    "title": "Quantifying Uncertainty in Online Regression Forests",
+    "volume": 20,
+    "year": 2019
+}

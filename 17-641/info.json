@@ -1,0 +1,22 @@
+{
+    "abstract": "We develop a set of scalable Bayesian inference procedures for a general class of nonparametric regression models. Specifically, nonparametric Bayesian inferences are separately performed on each subset randomly split from a massive dataset, and then the obtained local results are aggregated into global counterparts. This aggregation step is explicit without involving any additional computation cost. By a careful partition, we show that our aggregated inference results obtain an oracle rule in the sense that they are equivalent to those obtained directly from the entire data (which are computationally prohibitive). For example, an aggregated credible ball achieves desirable credibility level and also frequentist coverage while possessing the same radius as the oracle ball.",
+    "authors": [
+        "Zuofeng Shang",
+        "Botao Hao",
+        "Guang Cheng"
+    ],
+    "emails": [
+        "zuofengshang@gmail.com",
+        "hao22@purdue.edu",
+        "chengg@purdue.edu"
+    ],
+    "id": "17-641",
+    "issue": 140,
+    "pages": [
+        1,
+        81
+    ],
+    "title": "Nonparametric Bayesian Aggregation for Massive Data",
+    "volume": 20,
+    "year": 2019
+}

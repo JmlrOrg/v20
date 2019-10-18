@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the parameter estimation problem for a varying index coefficient model in high dimensions. Unlike the most existing works that iteratively estimate the parameters and link functions, based on the generalized Stein's identity, we propose computationally efficient estimators for the high-dimensional parameters without estimating the link functions. We consider two different setups where we either estimate each sparse parameter vector individually or estimate the parameters simultaneously as a sparse or low-rank matrix. For all these cases, our estimators are shown to achieve optimal statistical rates of convergence (up to logarithmic terms in the low-rank setting). Moreover, throughout our analysis, we only require the covariate to satisfy certain moment conditions, which is significantly weaker than the Gaussian or elliptically symmetric assumptions that are commonly made in the existing literature. Finally, we conduct extensive numerical experiments to corroborate the theoretical results.",
+    "authors": [
+        "Sen Na",
+        "Zhuoran Yang",
+        "Zhaoran Wang",
+        "Mladen Kolar"
+    ],
+    "emails": [
+        "senna@uchicago.edu",
+        "zy6@princeton.edu",
+        "zhaoran.wang@northwestern.edu",
+        "mkolar@chicagobooth.edu"
+    ],
+    "id": "18-705",
+    "issue": 152,
+    "pages": [
+        1,
+        44
+    ],
+    "title": "High-dimensional Varying Index Coefficient Models via Stein's Identity",
+    "volume": 20,
+    "year": 2019
+}
