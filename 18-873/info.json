@@ -1,0 +1,20 @@
+{
+    "abstract": "This paper proposes and analyzes a novel clustering algorithm, called learning by unsupervised nonlinear diffusion (LUND), that combines graph-based diffusion geometry with techniques based on density and mode estimation.  LUND is suitable for data generated from mixtures of distributions with densities that are both multimodal and supported near nonlinear sets.  A crucial aspect of this algorithm is the use of time of a data-adapted diffusion process, and associated diffusion distances, as a scale parameter that is different from the local spatial scale parameter used in many clustering algorithms. We prove estimates for the behavior of diffusion distances with respect to this time parameter under a flexible nonparametric data model, identifying a range of times in which the mesoscopic equilibria of the underlying process are revealed, corresponding to a gap between within-cluster and between-cluster diffusion distances. These structures may be missed by the top eigenvectors of the graph Laplacian, commonly used in spectral clustering. This analysis is leveraged to prove sufficient conditions guaranteeing the accuracy of LUND.  We implement LUND and confirm its theoretical properties on illustrative data sets, demonstrating its theoretical and empirical advantages over both spectral and density-based clustering.",
+    "authors": [
+        "Mauro Maggioni",
+        "James M. Murphy"
+    ],
+    "emails": [
+        "mauro.maggioni@jhu.edu",
+        "jm.murphy@tufts.edu"
+    ],
+    "id": "18-873",
+    "issue": 160,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "Learning by Unsupervised Nonlinear Diffusion",
+    "volume": 20,
+    "year": 2019
+}
