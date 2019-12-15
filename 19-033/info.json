@@ -1,0 +1,26 @@
+{
+    "abstract": "Revealing latent structure in data is an active field of research, having introduced exciting technologies such as variational autoencoders and adversarial networks, and is essential to push machine learning towards unsupervised knowledge discovery. However, a major challenge is the lack of suitable benchmarks for an objective and quantitative evaluation of learned representations. To address this issue we introduce Morpho-MNIST, a framework that aims to answer: ``to what extent has my model learned to represent specific factors of variation in the data? We extend the popular MNIST dataset by adding a morphometric analysis enabling quantitative comparison of trained models, identification of the roles of latent variables, and characterisation of sample diversity. We further propose a set of quantifiable perturbations to assess the performance of unsupervised and supervised methods on challenging tasks such as outlier detection and domain adaptation. Data and code are available at https://github.com/dccastro/Morpho-MNIST.",
+    "authors": [
+        "Daniel C. Castro",
+        "Jeremy Tan",
+        "Bernhard Kainz",
+        "Ender Konukoglu",
+        "Ben Glocker"
+    ],
+    "emails": [
+        "dc315@imperial.ac.uk",
+        "jht16@imperial.ac.uk",
+        "b.kainz@imperial.ac.uk",
+        "ender.konukoglu@vision.ee.ethz.ch",
+        "b.glocker@imperial.ac.uk"
+    ],
+    "id": "19-033",
+    "issue": 179,
+    "pages": [
+        1,
+        29
+    ],
+    "title": "Morpho-MNIST: Quantitative Assessment and Diagnostics for Representation Learning",
+    "volume": 20,
+    "year": 2019
+}

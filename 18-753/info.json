@@ -1,0 +1,35 @@
+{
+    "abstract": "With the growing importance of machine learning (ML) algorithms for practical applications, reducing data quality problems in ML pipelines has become a major focus of research. In many cases missing values can break data pipelines which makes completeness one of the most impactful data quality challenges. Current missing value imputation methods are focusing on numerical or categorical data and can be difficult to scale to datasets with millions of rows. We release DataWig, a robust and scalable approach for missing value imputation that can be applied to tables with heterogeneous data types, including unstructured text. DataWig combines deep learning feature extractors with automatic hyperparameter tuning. This enables users without a machine learning background, such as data engineers, to impute missing values with minimal effort in tables with more heterogeneous data types than supported in existing libraries, while requiring less glue code for feature engineering and offering more flexible modelling options. We demonstrate that DataWig compares favourably to existing imputation packages. Source code, documentation, and unit tests for this package are available at: https://github.com/awslabs/datawig",
+    "authors": [
+        "Felix Biessmann",
+        "Tammo Rukat",
+        "Phillipp Schmidt",
+        "Prathik Naidu",
+        "Sebastian Schelter",
+        "Andrey Taptunov",
+        "Dustin Lange",
+        "David Salinas"
+    ],
+    "emails": [
+        "felix.biessmann@beuth-hochschule.de",
+        "tammruka@amazon.com",
+        "phschmid@amazon.com",
+        "prathikn@stanford.edu",
+        "sebastian.schelter@nyu.edu",
+        "andrei.taptunov@gmail.com",
+        "langed@amazon.com",
+        "david.salinas@naverlabs.com"
+    ],
+    "id": "18-753",
+    "issue": 176,
+    "pages": [
+        1,
+        6
+    ],
+    "title": "DataWig: Missing Value Imputation for Tables",
+    "volume": 20,
+    "year": 2019,
+    "extra_links": [
+        ["code", "https://github.com/awslabs/datawig"]
+    ]
+}

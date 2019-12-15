@@ -1,0 +1,20 @@
+{
+    "abstract": "We consider the task of estimating a high-dimensional directed acyclic graph, given observations from a linear structural equation model with arbitrary noise distribution. By exploiting properties of common random graphs, we develop a new algorithm that requires conditioning only on small sets of variables. The proposed algorithm, which is essentially a modified version of the PC-Algorithm, offers significant gains in both computational complexity and estimation accuracy. In particular, it results in more efficient and accurate estimation in large networks containing hub nodes, which are common in biological systems. We prove the consistency of the proposed algorithm, and show that it also requires a less stringent faithfulness assumption than the PC-Algorithm. Simulations in low and high-dimensional settings are used to illustrate these findings. An application to gene expression data suggests that the proposed algorithm can identify a greater number of clinically relevant genes than current methods.",
+    "authors": [
+        "Arjun Sondhi",
+        "Ali Shojaie"
+    ],
+    "emails": [
+        "asondhi@uw.edu",
+        "ashojaie@uw.edu"
+    ],
+    "id": "17-601",
+    "issue": 165,
+    "pages": [
+        1,
+        31
+    ],
+    "title": "The Reduced PC-Algorithm: Improved Causal Structure Learning in Large Random Networks",
+    "volume": 20,
+    "year": 2019
+}

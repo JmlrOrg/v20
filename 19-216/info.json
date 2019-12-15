@@ -1,0 +1,20 @@
+{
+    "abstract": "We unify kernel density estimation and empirical Bayes and address a set of problems in unsupervised machine learning with a geometric interpretation of those methods, rooted in the concentration of measure phenomenon. Kernel density is viewed symbolically as $X\\rightharpoonup Y$ where the random variable $X$ is smoothed to $Y= X+N(0,\\sigma^2 I_d)$, and empirical Bayes is the machinery to denoise in a least-squares sense, which we express as $X \\leftharpoondown Y$. A learning objective is derived by combining these two, symbolically captured by $X \\rightleftharpoons Y$. Crucially, instead of using the original nonparametric estimators, we parametrize the energy function with a neural network denoted by $\\phi$; at optimality, $\\nabla \\phi \\approx -\\nabla \\log f$ where $f$ is the density of $Y$. The optimization problem is abstracted as interactions of high-dimensional spheres which emerge due to the concentration of isotropic Gaussians. We introduce two algorithmic frameworks based on this machinery: (i) a ``walk-jump'' sampling scheme that combines Langevin MCMC (walks) and empirical Bayes (jumps), and (ii) a probabilistic framework for associative memory, called NEBULA, defined a la Hopfield by the gradient flow of the learned energy to a set of attractors. We finish the paper by reporting the emergence of very rich ``creative memories'' as attractors of NEBULA for highly-overlapping spheres.",
+    "authors": [
+        "Saeed Saremi",
+        "Aapo Hyv{{\\\"a}}rinen"
+    ],
+    "emails": [
+        "saeed@berkeley.edu",
+        "aapo.hyvarinen@helsinki.fi"
+    ],
+    "id": "19-216",
+    "issue": 182,
+    "pages": [
+        1,
+        23
+    ],
+    "title": "Neural Empirical Bayes",
+    "volume": 20,
+    "year": 2019
+}

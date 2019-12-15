@@ -1,0 +1,22 @@
+{
+    "abstract": "We consider a general formulation of the multiple change-point problem, in which the data is assumed to belong to a set equipped with a positive semidefinite kernel. We propose a model-selection penalty allowing to select the number of change points in Harchaoui and Capp{{\\'e}}'s kernel-based change-point detection method. The model-selection penalty generalizes non-asymptotic model-selection penalties for the change-in-mean problem with univariate data. We prove a non-asymptotic oracle inequality for the resulting kernel-based change-point detection method, whatever the unknown number of change points, thanks to a concentration result for Hilbert-space valued random variables which may be of independent interest. Experiments on synthetic and real data illustrate the proposed method, demonstrating its ability to detect subtle changes in the distribution of data.",
+    "authors": [
+        "Sylvain Arlot",
+        "Alain Celisse",
+        "Zaid Harchaoui"
+    ],
+    "emails": [
+        "sylvain.arlot@u-psud.fr",
+        "celisse@math.univ-lille1.fr",
+        "zaid@uw.edu"
+    ],
+    "id": "16-155",
+    "issue": 162,
+    "pages": [
+        1,
+        56
+    ],
+    "title": "A Kernel Multiple Change-point Algorithm via Model Selection",
+    "volume": 20,
+    "year": 2019
+}

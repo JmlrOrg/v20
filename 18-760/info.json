@@ -1,0 +1,21 @@
+{
+    "abstract": "Variable importance (VI) tools describe how much covariates contribute to a prediction model's accuracy. However, important variables for one well-performing model (for example, a linear model $f(\\mathbf{x})=\\mathbf{x}^{T}\\beta$ with a fixed coefficient vector $\\beta$) may be unimportant for another model. In this paper, we propose model class reliance (MCR) as the range of VI values across all well-performing model in a prespecified class. Thus, MCR gives a more comprehensive description of importance by accounting for the fact that many prediction models, possibly of different parametric forms, may fit the data well. In the process of deriving MCR, we show several informative results for permutation-based VI estimates, based on the VI measures used in Random Forests. Specifically, we derive connections between permutation importance estimates for a single prediction model, U-statistics, conditional variable importance, conditional causal effects, and linear model coefficients. We then give probabilistic bounds for MCR, using a novel, generalizable technique. We apply MCR to a public data set of Broward County criminal records to study the reliance of recidivism prediction models on sex and race. In this application, MCR can be used to help inform VI for unknown, proprietary models.",
+    "authors": [
+        "Aaron Fisher",
+        "Cynthia Rudin"
+    ],
+    "emails": [
+        "afishe27@alumni.jh.edu",
+        "cynthia@cs.duke.edu",
+        "fdominic@hsph.harvard.edu"
+    ],
+    "id": "18-760",
+    "issue": 178,
+    "pages": [
+        1,
+        81
+    ],
+    "title": "All Models are Wrong, but Many are Useful: Learning a Variable's Importance by Studying an Entire Class of Prediction Models Simultaneously",
+    "volume": 20,
+    "year": 2019
+}

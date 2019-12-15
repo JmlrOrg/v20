@@ -1,0 +1,22 @@
+{
+    "abstract": "Sparse-Group Lasso (SGL) has been shown to be a powerful regression technique for simultaneously discovering group and within-group sparse patterns by using a combination of the $\\ell_1$ and $\\ell_2$ norms. However, in large-scale applications, the complexity of the regularizers entails great computational challenges. In this paper, we propose a novel two-layer feature reduction method (TLFre) for SGL via a decomposition of its dual feasible set. The two-layer reduction is able to quickly identify the inactive groups and the inactive features, respectively, which are guaranteed to be absent from the sparse representation and can be removed from the optimization. Existing feature reduction methods are only applicable to sparse models with one sparsity-inducing regularizer. To our best knowledge, TLFre is the first one that is capable of dealing with multiple sparsity-inducing regularizers. Moreover, TLFre has a very low computational cost and can be integrated with any existing solvers. We also develop a screening method---called DPC (decomposition of convex set)---for nonnegative Lasso. Experiments on both synthetic and real data sets show that TLFre and DPC improve the efficiency of SGL and nonnegative Lasso by several orders of magnitude.",
+    "authors": [
+        "Jie Wang",
+        "Zhanqiu Zhang",
+        "Jieping Ye"
+    ],
+    "emails": [
+        "jiewangx@ustc.edu.cn",
+        "zzq96@mail.ustc.edu.cn",
+        "jpye@umich.edu"
+    ],
+    "id": "16-383",
+    "issue": 163,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Two-Layer Feature Reduction for Sparse-Group Lasso via Decomposition of Convex Sets",
+    "volume": 20,
+    "year": 2019
+}

@@ -1,0 +1,22 @@
+{
+    "abstract": "The promise of augmenting accurate predictions provided by modern neural networks with well-calibrated predictive uncertainties has reinvigorated interest in Bayesian neural networks. However, model selection---even choosing the number of nodes---remains an open question. Poor choices can severely affect the quality of the produced uncertainties. In this paper, we explore continuous shrinkage priors, the horseshoe, and the regularized horseshoe distributions, for model selection in Bayesian neural networks. When placed over node pre-activations and coupled with appropriate variational approximations, we find that the strong shrinkage provided by the horseshoe is effective at turning off nodes that do not help explain the data. We demonstrate that our approach finds compact network structures even when the number of nodes required is grossly over-estimated. Moreover, the model selection over the number of nodes does not come at the expense of predictive or computational performance; in fact, we learn smaller networks with comparable predictive performance to current approaches. These effects are particularly apparent in sample-limited settings, such as small data sets and reinforcement learning.",
+    "authors": [
+        "Soumya Ghosh",
+        "Jiayu Yao",
+        "Finale Doshi-Velez"
+    ],
+    "emails": [
+        "ghoshso@us.ibm.com",
+        "jiy328@g.harvard.edu",
+        "finale@seas.harvard.edu"
+    ],
+    "id": "19-236",
+    "issue": 183,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Model Selection in Bayesian Neural Networks via Horseshoe Priors",
+    "volume": 20,
+    "year": 2019
+}

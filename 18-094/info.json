@@ -1,0 +1,22 @@
+{
+    "abstract": "Ensemble methods that aggregate predictions from a set of diverse base learners consistently outperform individual classifiers. Many such popular strategies have been developed in a supervised setting, where the sample labels have been provided to the ensemble algorithm. However, with the rising interest in unsupervised algorithms for machine learning and growing amounts of uncurated data, the reliance on labeled data precludes the application of ensemble algorithms to many real world problems. To this end we develop a new theoretical framework for ensemble learning, the Strategy for Unsupervised Multiple Method Aggregation (SUMMA), that estimates the performances of base classifiers and uses these estimates to form an ensemble classifier. SUMMA also generates an ensemble ranking of samples based on the confidence score it assigns to each sample. We illustrate the performance of SUMMA using a synthetic example as well as two real world problems.",
+    "authors": [
+        "Mehmet Eren Ahsen",
+        "Robert M Vogel",
+        "Gustavo A Stolovitzky"
+    ],
+    "emails": [
+        "ahsen@illinois.edu",
+        "r.vogel@ibm.com",
+        "gustavo@us.ibm.com"
+    ],
+    "id": "18-094",
+    "issue": 167,
+    "pages": [
+        1,
+        40
+    ],
+    "title": "Unsupervised Evaluation and Weighted Aggregation of Ranked Classification Predictions",
+    "volume": 20,
+    "year": 2019
+}

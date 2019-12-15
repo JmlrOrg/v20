@@ -1,0 +1,24 @@
+{
+    "abstract": "We study the problem of sampling from a strongly log-concave density supported on $\\mathbb{R}^d$, and prove a non-asymptotic upper bound on the mixing time of the Metropolis-adjusted Langevin algorithm (MALA). The method draws samples by simulating a Markov chain obtained from the discretization of an appropriate Langevin diffusion, combined with an accept-reject step. Relative to known guarantees for the unadjusted Langevin algorithm (ULA), our bounds show that the use of an accept-reject step in MALA leads to an exponentially improved dependence on the error-tolerance. Concretely, in order to obtain samples with TV error at most $\\delta$ for a density with condition number $\\kappa$, we show that MALA requires $\\mathcal{O} (\\kappa d \\log(1/\\delta) )$ steps from a warm start, as compared to the $\\mathcal{O} (\\kappa^2 d/\\delta^2 )$ steps established in past work on ULA. We also demonstrate the gains of a modified version of MALA over ULA for weakly log-concave densities. Furthermore, we derive mixing time bounds for the Metropolized random walk (MRW) and obtain $\\mathcal{O}(\\kappa)$ mixing time slower than MALA. We provide numerical examples that support our theoretical findings, and demonstrate the benefits of Metropolis-Hastings adjustment for Langevin-type sampling algorithms.",
+    "authors": [
+        "Raaz Dwivedi",
+        "Yuansi Chen",
+        "Martin J. Wainwright",
+        "Bin Yu"
+    ],
+    "emails": [
+        "raaz.rsk@berkeley.edu",
+        "yuansi.chen@berkeley.edu",
+        "wainwrig@berkeley.edu",
+        "binyu@berkeley.edu"
+    ],
+    "id": "19-306",
+    "issue": 184,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Log-concave sampling: Metropolis-Hastings algorithms are fast",
+    "volume": 20,
+    "year": 2019
+}

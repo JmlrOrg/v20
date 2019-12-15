@@ -1,0 +1,22 @@
+{
+    "abstract": "When faced with a data set too large to be processed all at once, an obvious solution is to retain only part of it. In practice this takes a wide variety of different forms, and among them ``coresets'' are especially appealing. A coreset is a (small) weighted sample of the original data that comes with the following guarantee: a cost function can be evaluated on the smaller set instead of the larger one, with low relative error. For some classes of problems, and via a careful choice of sampling distribution (based on the so-called ``sensitivity'' metric), iid random sampling has turned to be one of the most successful methods for building coresets efficiently. However, independent samples are sometimes overly redundant, and one could hope that enforcing diversity would lead to better performance. The difficulty lies in proving coreset properties in non-iid samples. We show that the coreset property holds for samples formed with determinantal point processes (DPP). DPPs are interesting because they are a rare example of repulsive point processes with tractable theoretical properties, enabling us to prove general coreset theorems. We apply our results to both the $k$-means and the linear regression problems, and give extensive empirical evidence that the small additional computational cost of DPP sampling comes with superior performance over its iid counterpart. Of independent interest, we also provide analytical formulas for the sensitivity in the linear regression and $1$-means cases.",
+    "authors": [
+        "Nicolas Tremblay",
+        "Simon Barthelm{{\\'e}}",
+        "Pierre-Olivier Amblard"
+    ],
+    "emails": [
+        "nicolas.tremblay@gipsa-lab.fr",
+        "simon.barthelme@gipsa-lab.fr",
+        "pierre-olivier.amblard@gipsa-lab.fr"
+    ],
+    "id": "18-167",
+    "issue": 169,
+    "pages": [
+        1,
+        70
+    ],
+    "title": "Determinantal Point Processes for Coresets",
+    "volume": 20,
+    "year": 2019
+}

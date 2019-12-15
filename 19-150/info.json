@@ -1,0 +1,20 @@
+{
+    "abstract": "Numerous results in learning and approximation theory have evidenced the importance of differentiability at the time of countering the curse of dimensionality. In the context of reservoir computing, much effort has been devoted in the last two decades to characterize the situations in which systems of this type exhibit the so-called echo state (ESP) and fading memory (FMP) properties. These important features amount, in mathematical terms, to the existence and continuity of global reservoir system solutions. That research is complemented in this paper with the characterization of the differentiability of reservoir filters for very general classes of discrete-time deterministic inputs. This constitutes a novel strong contribution to the long line of research on the ESP and the FMP and, in particular, links to existing research on the input-dependence of the ESP. Differentiability has been shown in the literature to be a key feature in the learning of attractors of chaotic dynamical systems. A Volterra-type series representation for reservoir filters with semi-infinite discrete-time inputs is constructed in the analytic case using Taylor's theorem and corresponding approximation bounds are provided. Finally, it is shown as a corollary of these results that any fading memory filter can be uniformly approximated by a finite Volterra series with finite memory.",
+    "authors": [
+        "Lyudmila Grigoryeva",
+        "Juan-Pablo Ortega"
+    ],
+    "emails": [
+        "rigoryeva@uni-konstanz.de",
+        "rtega@unisg.ch"
+    ],
+    "id": "19-150",
+    "issue": 180,
+    "pages": [
+        1,
+        62
+    ],
+    "title": "Differentiable reservoir computing",
+    "volume": 20,
+    "year": 2019
+}

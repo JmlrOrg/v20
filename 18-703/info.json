@@ -1,0 +1,22 @@
+{
+    "abstract": "Finding overcomplete latent representations of data has applications in data analysis, signal processing, machine learning, theoretical neuroscience and many other fields. In an overcomplete representation, the number of latent features exceeds the data dimensionality, which is useful when the data is undersampled by the measurements (compressed sensing or information bottlenecks in neural systems) or composed from multiple complete sets of linear features, each spanning the data space. Independent Components Analysis (ICA) is a linear technique for learning sparse latent representations, which typically has a lower computational cost than sparse coding, a linear generative model which requires an iterative, nonlinear inference step. While well suited for finding complete representations, we show that overcompleteness poses a challenge to existing ICA algorithms. Specifically, the coherence control used in existing ICA and other dictionary learning algorithms, necessary to prevent the formation of duplicate dictionary features, is ill-suited in the overcomplete case. We show that in the overcomplete case, several existing ICA algorithms have undesirable global minima that maximize coherence. We provide a theoretical explanation of these failures and, based on the theory, propose improved coherence control costs for overcomplete ICA algorithms. Further, by comparing ICA algorithms to the computationally more expensive sparse coding on synthetic data, we show that the limited applicability of overcomplete, linear inference can be extended with the proposed cost functions. Finally, when trained on natural images, we show that the coherence control biases the exploration of the data manifold, sometimes yielding suboptimal, coherent solutions. All told, this study contributes new insights into and methods for coherence control for linear ICA, some of which are applicable to many other nonlinear models.",
+    "authors": [
+        "Jesse A. Livezey",
+        "Alejandro F. Bujan",
+        "Friedrich T. Sommer"
+    ],
+    "emails": [
+        "jlivezey@lbl.gov",
+        "afbujan@gmail.com",
+        "fsommer@berkeley.edu"
+    ],
+    "id": "18-703",
+    "issue": 175,
+    "pages": [
+        1,
+        42
+    ],
+    "title": "Learning Overcomplete, Low Coherence Dictionaries with Linear Inference",
+    "volume": 20,
+    "year": 2019
+}

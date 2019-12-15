@@ -1,0 +1,30 @@
+{
+    "abstract": "We show that many machine learning goals can be expressed as ``rate constraints'' on a model's predictions. We study the problem of training non-convex models subject to these rate constraints (or other non-convex or non-differentiable constraints). In the non-convex setting, the standard approach of Lagrange multipliers may fail. Furthermore, if the constraints are non-differentiable, then one cannot optimize the Lagrangian with gradient-based methods. To solve these issues, we introduce a new ``proxy-Lagrangian'' formulation. This leads to an algorithm that, assuming access to an optimization oracle, produces a stochastic classifier by playing a two-player non-zero-sum game solving for what we call a semi-coarse correlated equilibrium, which in turn corresponds to an approximately optimal and feasible solution to the constrained optimization problem. We then give a procedure that shrinks the randomized solution down to a mixture of at most $m+1$ deterministic solutions, given $m$ constraints. This culminates in a procedure that can solve non-convex constrained optimization problems with possibly non-differentiable and non-convex constraints, and enjoys theoretical guarantees. We provide extensive experimental results covering a broad range of policy goals, including various fairness metrics, accuracy, coverage, recall, and churn.",
+    "authors": [
+        "Andrew Cotter",
+        "Heinrich Jiang",
+        "Maya Gupta",
+        "Serena Wang",
+        "Taman Narayan",
+        "Seungil You",
+        "Karthik Sridharan"
+    ],
+    "emails": [
+        "acotter@google.com",
+        "heinrichj@google.com",
+        "mayagupta@google.com",
+        "serenawang@google.com",
+        "tamann@google.com",
+        "seungil.you@gmail.com",
+        "sridharan@cs.cornell.edu"
+    ],
+    "id": "18-616",
+    "issue": 173,
+    "pages": [
+        1,
+        59
+    ],
+    "title": "Optimization with Non-Differentiable Constraints with Applications to Fairness, Recall, Churn, and Other Goals",
+    "volume": 20,
+    "year": 2019
+}

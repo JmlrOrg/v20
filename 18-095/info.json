@@ -1,0 +1,26 @@
+{
+    "abstract": "We study the sample complexity of canonical correlation analysis (CCA), i.e., the number of samples needed to estimate the population canonical correlation and directions up to arbitrarily small error. With mild assumptions on the data distribution, we show that in order to achieve $\\epsilon$-suboptimality in a properly defined measure of alignment between the estimated canonical directions and the population solution, we can solve the empirical objective exactly with $N(\\epsilon, \\Delta, \\gamma)$ samples, where $\\Delta$ is the singular value gap of the whitened cross-covariance matrix and $1/\\gamma$ is an upper bound of the condition number of auto-covariance matrices. Moreover, we can achieve the same learning accuracy by drawing the same level of samples and solving the empirical objective approximately with a stochastic optimization algorithm; this algorithm is based on the shift-and-invert power iterations and only needs to process the dataset for $\\mathcal{O} \\left(\\log \\frac{1}{\\epsilon} \\right)$ passes. Finally, we show that, given an estimate of the canonical correlation, the streaming version of the shift-and-invert power iterations achieves the same learning accuracy with the same level of sample complexity, by processing the data only once.",
+    "authors": [
+        "Chao Gao",
+        "Dan Garber",
+        "Nathan Srebro",
+        "Jialei Wang",
+        "Weiran Wang"
+    ],
+    "emails": [
+        "chaogao@galton.uchicago.edu",
+        "dangar@technion.ac.il",
+        "nati@ttic.edu",
+        "jialei@uchicago.edu",
+        "weiranwang@ttic.edu"
+    ],
+    "id": "18-095",
+    "issue": 168,
+    "pages": [
+        1,
+        46
+    ],
+    "title": "Stochastic Canonical Correlation Analysis",
+    "volume": 20,
+    "year": 2019
+}

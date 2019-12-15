@@ -1,0 +1,20 @@
+{
+    "abstract": "Generalized additive models (GAMs) are regression models wherein parameters of probability distributions depend on input variables through a sum of smooth functions, whose degrees of smoothness are selected by $L_2$ regularization. Such models have become the de-facto standard nonlinear regression models when interpretability and flexibility are required, but reliable and fast methods for automatic smoothing in large data sets are still lacking. We develop a general methodology for automatically learning the optimal degree of $L_2$ regularization for GAMs using an empirical Bayes approach. The smooth functions are penalized by hyper-parameters that are learned simultaneously by maximization of a marginal likelihood using an approximate expectation-maximization algorithm. The latter involves a double Laplace approximation at the E-step, and leads to an efficient M-step. Empirical analysis shows that the resulting algorithm is numerically stable, faster than the best existing methods and achieves state-of-the-art accuracy. For illustration, we apply it to an important and challenging problem in the analysis of extremal data.",
+    "authors": [
+        "Yousra El-Bachir",
+        "Anthony C.  Davison"
+    ],
+    "emails": [
+        "yousra.elbachir@gmail.com",
+        "anthony.davison@epfl.ch"
+    ],
+    "id": "18-659",
+    "issue": 174,
+    "pages": [
+        1,
+        27
+    ],
+    "title": "Fast Automatic Smoothing for Generalized Additive Models",
+    "volume": 20,
+    "year": 2019
+}

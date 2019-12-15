@@ -1,0 +1,20 @@
+{
+    "abstract": "We develop a model-based method for evaluating heterogeneity among several $p\\times p$ covariance matrices in the large $p$, small $n$ setting. This is done by assuming a spiked covariance model for each group and sharing information about the space spanned by the group-level eigenvectors. We use an empirical Bayes method to identify a low-dimensional subspace which explains variation across all groups and use an MCMC algorithm to estimate the posterior uncertainty of eigenvectors and eigenvalues on this subspace. The implementation and utility of our model is illustrated with analyses of high-dimensional multivariate gene expression.",
+    "authors": [
+        "Alexander M. Franks",
+        "Peter Hoff"
+    ],
+    "emails": [
+        "afranks@pstat.ucsb.edu",
+        "peter.hoff@duke.edu"
+    ],
+    "id": "18-484",
+    "issue": 172,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "Shared Subspace Models for Multi-Group Covariance Estimation",
+    "volume": 20,
+    "year": 2019
+}

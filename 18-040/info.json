@@ -1,0 +1,22 @@
+{
+    "abstract": "This paper is concerned with a multivariate extension of Gaussian message passing applied to pairwise Markov graphs (MGs). Gaussian message passing applied to pairwise MGs is often labeled Gaussian belief propagation (GaBP) and can be used to approximate the marginal of each variable contained in the pairwise MG. We propose a multivariate extension of GaBP (we label this GaBP-m) that can be used to estimate higher-dimensional marginals. Beyond the ability to estimate higher-dimensional marginals, GaBP-m exhibits better convergence behavior than GaBP, and can also provide more accurate univariate marginals. The theoretical results of this paper are based on an extension of the computation tree analysis conducted on univariate nodes to the multivariate case. The main contribution of this paper is the development of a convergence condition for GaBP-m that moves beyond the walk-summability of the precision matrix. Based on this convergence condition, we derived an upper bound for the number of iterations required for convergence of the GaBP-m algorithm. An upper bound on the dissimilarity between the approximate and exact marginal covariance matrices was established. We argue that GaBP-m is robust towards a certain change in variables, a property not shared by iterative solvers of linear systems, such as the conjugate gradient (CG) and preconditioned conjugate gradient (PCG) methods. The advantages of using GaBP-m over GaBP are also illustrated empirically.",
+    "authors": [
+        "Francois Kamper",
+        "Sarel J. Steel",
+        "Johan A. du Preez"
+    ],
+    "emails": [
+        "francoisk@sun.ac.za",
+        "sjst@sun.ac.za",
+        "dupreez@sun.ac.za"
+    ],
+    "id": "18-040",
+    "issue": 166,
+    "pages": [
+        1,
+        37
+    ],
+    "title": "On the Convergence of Gaussian Belief Propagation with Nodes of Arbitrary Size",
+    "volume": 20,
+    "year": 2019
+}

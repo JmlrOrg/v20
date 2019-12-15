@@ -1,0 +1,26 @@
+{
+    "abstract": "The classical convergence analysis of SGD is carried out under the assumption that the norm of the stochastic gradient is uniformly bounded. While this might hold for some loss functions, it is violated for cases where the objective function is strongly convex. In Bottou et al. (2018), a new analysis of convergence of SGD is performed under the assumption that stochastic gradients are bounded with respect to the true gradient norm. We show that for stochastic problems arising in machine learning such bound always holds; and we also propose an alternative convergence analysis of SGD with diminishing learning rate regime. We then move on to the asynchronous parallel setting, and prove convergence of Hogwild! algorithm in the same regime in the case of diminished learning rate. It is well-known that SGD converges if a sequence of learning rates $\\{\\eta_t\\}$ satisfies $\\sum_{t=0}^\\infty \\eta_t \\rightarrow \\infty$ and $\\sum_{t=0}^\\infty \\eta^2_t < \\infty$. We show the convergence of SGD for strongly convex objective function without using bounded gradient assumption when $\\{\\eta_t\\}$ is a diminishing sequence and $\\sum_{t=0}^\\infty \\eta_t \\rightarrow \\infty$. In other words, we extend the current state-of-the-art class of learning rates satisfying the convergence of SGD.",
+    "authors": [
+        "Lam M. Nguyen",
+        "Phuong Ha Nguyen",
+        "Peter Richt{{\\'a}}rik",
+        "Katya Scheinberg",
+        "Martin Tak{{\\'a}}{\\v{c}}",
+        "Marten van Dijk"
+    ],
+    "emails": [
+        "phuongha.ntu@gmail.com",
+        "peter.richtarik@kaust.edu.sa",
+        "ks2375@cornell.edu",
+        "_$dijk@uconn.edu"
+    ],
+    "id": "18-759",
+    "issue": 177,
+    "pages": [
+        1,
+        49
+    ],
+    "title": "New Convergence Aspects of Stochastic Gradient Algorithms",
+    "volume": 20,
+    "year": 2019
+}

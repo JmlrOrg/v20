@@ -1,0 +1,20 @@
+{
+    "abstract": "Convolutional Neural Networks (CNNs) are commonly assumed to be invariant to small image transformations: either because of the convolutional architecture or because they were trained using data augmentation. Recently, several authors have shown that this is not the case: small translations or rescalings of the input image can drastically change the network's prediction. In this paper, we quantify this phenomena and ask why neither the convolutional architecture nor data augmentation are sufficient to achieve the desired invariance. Specifically, we show that the convolutional architecture does not give invariance since architectures ignore the classical sampling theorem, and data augmentation does not give invariance because the CNNs learn to be invariant to transformations only for images that are very similar to typical images from the training set. We discuss two possible solutions to this problem: (1) antialiasing the intermediate representations and (2) increasing data augmentation and show that they provide only a partial solution at best. Taken together, our results indicate that the problem of insuring invariance to small image transformations in neural networks while preserving high accuracy remains unsolved.",
+    "authors": [
+        "Aharon Azulay",
+        "Yair Weiss"
+    ],
+    "emails": [
+        "aharon.azulay@mail.huji.ac.il",
+        "yweiss@cs.huji.ac.il"
+    ],
+    "id": "19-519",
+    "issue": 185,
+    "pages": [
+        1,
+        25
+    ],
+    "title": "Why do deep convolutional networks generalize so poorly to small image transformations?",
+    "volume": 20,
+    "year": 2019
+}

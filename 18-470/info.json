@@ -1,0 +1,22 @@
+{
+    "abstract": "We study the problem of optimal estimation of the density cluster tree under various smoothness assumptions on the underlying density. Inspired by the seminal work of Chaudhuri et al. (2014), we formulate a new notion of clustering consistency which is better suited to smooth densities, and derive minimax rates for cluster tree estimation under H{{\\\"o}}lder smooth densities of arbitrary degree. We present a computationally efficient, rate optimal cluster tree estimator based on simple extensions of the popular DBSCAN algorithm of Ester et al. (1996). Our procedure relies on kernel density estimators and returns a sequence of nested random geometric graphs whose connected components form a hierarchy of clusters. The resulting optimal rates for cluster tree estimation depend on the degree of smoothness of the underlying density and, interestingly, match the minimax rates for density estimation under the sup-norm loss. Our results complement and extend the analysis of the DBSCAN algorithm in Sriperumbudur and Steinwart (2012). Finally, we consider level set estimation and cluster consistency for densities with jump discontinuities. We demonstrate that the DBSCAN algorithm attains the minimax rate in terms of the jump size and sample size in this setting as well.",
+    "authors": [
+        "Daren Wang",
+        "Xinyang Lu",
+        "Alessandro Rinaldo"
+    ],
+    "emails": [
+        "darenw@uchicago.edu",
+        "xlu8@lakeheadu.ca",
+        "arinaldo@cmu.edu"
+    ],
+    "id": "18-470",
+    "issue": 171,
+    "pages": [
+        1,
+        50
+    ],
+    "title": "DBSCAN: Optimal Rates For Density-Based Cluster Estimation",
+    "volume": 20,
+    "year": 2019
+}
