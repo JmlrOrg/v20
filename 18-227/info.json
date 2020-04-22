@@ -22,6 +22,7 @@
     "extra_links": [
         ["code", "https://github.com/SetarehAr/ADMMBO"]
       ],
+    "special_issue": "Bayesian Optimization",
     "volume": 20,
     "year": 2019
 }

@@ -18,5 +18,6 @@
     ],
     "title": "No-Regret Bayesian Optimization with Unknown Hyperparameters",
     "volume": 20,
-    "year": 2019
+    "year": 2019,
+    "special_issue": "Bayesian Optimization"
 }

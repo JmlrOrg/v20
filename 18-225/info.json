@@ -19,5 +19,6 @@
     "year": 2019,
     "extra_links": [
         ["appendix", "http://jmlr.org/papers/volume20/18-225/18-225_appendix.pdf"]
-    ]
+    ],
+    "special_issue": "Bayesian Optimization"
 }
